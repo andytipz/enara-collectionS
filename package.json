@@ -1,0 +1,45 @@
+{
+  "name": "enara-collection",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx scripts/validate.ts && next dev --hostname 0.0.0.0",
+    "build": "tsx scripts/validate.ts && next build && tsx scripts/export-catalog.ts",
+    "start": "serve out",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "tsx --test tests/*.test.ts tests/*.test.tsx",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build && npm run verify:export",
+    "verify:export": "tsx scripts/verify-export.ts",
+    "test:lifecycle": "tsx scripts/test-content-lifecycle.ts"
+  },
+  "dependencies": {
+    "lucide-react": "1.73.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sharp": "0.35.5",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/react": "16.3.3",
+    "@types/jsdom": "30.0.0",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.6",
+    "jsdom": "31.0.1",
+    "serve": "14.2.8",
+    "tailwindcss": "4.3.5",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "yaml": "2.9.1"
+  },
+  "engines": {
+    "node": ">=22 <27"
+  },
+  "type": "module"
+}

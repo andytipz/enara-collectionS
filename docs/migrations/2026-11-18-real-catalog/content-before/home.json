@@ -1,0 +1,46 @@
+{
+  "slides": [
+    {
+      "eyebrow": "NUEVA COLECCIÓN",
+      "title": "Sport, formal\n& tú.",
+      "description": "Tu estilo cambia. Tu esencia permanece.",
+      "image": "/media/woman.jpg",
+      "alt": "Fotografía editorial de moda de demostración",
+      "button": "Explorar colección",
+      "href": "/catalogo/"
+    },
+    {
+      "eyebrow": "THE EVERYDAY EDIT",
+      "title": "Menos reglas.\nMás estilo.",
+      "description": "Descubre los esenciales que van contigo.",
+      "image": "/media/man.jpg",
+      "alt": "Fotografía editorial masculina de demostración",
+      "button": "Descubrir Hombre",
+      "href": "/hombre/"
+    },
+    {
+      "eyebrow": "PEQUEÑOS GRANDES ESTILOS",
+      "title": "A su ritmo.\nA su manera.",
+      "description": "Una selección para acompañar cada aventura.",
+      "image": "/media/hoodie-beige.svg",
+      "alt": "Ilustración de prenda infantil de demostración",
+      "button": "Explorar Niños",
+      "href": "/ninos/"
+    }
+  ],
+  "editorial": {
+    "eyebrow": "COLECCIÓN · OLD MONEY",
+    "title": "El arte de\nlo esencial.",
+    "description": "Siluetas clásicas. Una nueva forma de llevarlas.",
+    "image": "/media/polo-beige.svg",
+    "alt": "Polo ilustrado de demostración",
+    "button": "Ver colección",
+    "href": "/colecciones/old-money/"
+  },
+  "sections": [
+    "categories",
+    "new",
+    "editorial",
+    "featured"
+  ]
+}

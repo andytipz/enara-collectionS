@@ -1,0 +1,564 @@
+{
+  "media": {
+    "input": "public/media",
+    "output": "/media",
+    "extensions": [
+      "jpg",
+      "jpeg",
+      "png",
+      "webp",
+      "avif"
+    ],
+    "rename": "safe"
+  },
+  "content": [
+    {
+      "name": "products",
+      "label": "Productos",
+      "type": "collection",
+      "path": "content/products",
+      "format": "json",
+      "filename": "{fields.slug}.json",
+      "view": {
+        "primary": "name",
+        "fields": [
+          "name",
+          "status",
+          "category",
+          "price"
+        ]
+      },
+      "fields": [
+        {
+          "name": "id",
+          "label": "Identificador estable (no cambiar)",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "slug",
+          "label": "URL única",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "name",
+          "label": "Nombre",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Descripción",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "price",
+          "label": "Precio normal en centavos (4490 = $44.90)",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 1,
+            "max": 100000000,
+            "step": 1
+          }
+        },
+        {
+          "name": "salePrice",
+          "label": "Precio promocional en centavos (opcional)",
+          "type": "number",
+          "options": {
+            "min": 1,
+            "max": 100000000,
+            "step": 1
+          }
+        },
+        {
+          "name": "category",
+          "label": "ID de categoría principal",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "subcategory",
+          "label": "ID de subcategoría",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "collections",
+          "label": "IDs de colecciones",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "tags",
+          "label": "Palabras clave",
+          "type": "string",
+          "list": true
+        },
+        {
+          "name": "status",
+          "label": "Disponibilidad",
+          "type": "select",
+          "options": {
+            "values": [
+              "disponible",
+              "agotado",
+              "oculto"
+            ]
+          },
+          "required": true
+        },
+        {
+          "name": "sizes",
+          "label": "Tallas: letras, edades, meses o números",
+          "type": "string",
+          "list": true,
+          "required": true
+        },
+        {
+          "name": "colors",
+          "label": "Colores",
+          "type": "object",
+          "list": true,
+          "required": true,
+          "fields": [
+            {
+              "name": "name",
+              "label": "Nombre",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "hex",
+              "label": "Color hexadecimal",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true
+            },
+            {
+              "name": "image",
+              "label": "Imagen de este color (opcional)",
+              "type": "image"
+            }
+          ]
+        },
+        {
+          "name": "disabledVariants",
+          "label": "Combinaciones desactivadas (opcional)",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "size",
+              "label": "Talla exacta",
+              "type": "string"
+            },
+            {
+              "name": "color",
+              "label": "Nombre exacto del color",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "images",
+          "label": "Galería (arrastra para ordenar)",
+          "type": "object",
+          "list": true,
+          "required": true,
+          "fields": [
+            {
+              "name": "src",
+              "label": "Fotografía",
+              "type": "image",
+              "required": true
+            },
+            {
+              "name": "alt",
+              "label": "Descripción accesible",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "isNew",
+          "label": "Nuevo",
+          "type": "boolean"
+        },
+        {
+          "name": "featured",
+          "label": "Destacado",
+          "type": "boolean"
+        },
+        {
+          "name": "date",
+          "label": "Fecha AAAA-MM-DD",
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "required": true
+        },
+        {
+          "name": "materials",
+          "label": "Materiales",
+          "type": "text"
+        },
+        {
+          "name": "care",
+          "label": "Cuidados",
+          "type": "text"
+        },
+        {
+          "name": "sizeGuide",
+          "label": "ID de guía de tallas",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "demo",
+          "label": "Es un producto de demostración",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "categories",
+      "label": "Categorías y colecciones",
+      "type": "file",
+      "path": "content/categories.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "id",
+          "label": "Identificador",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "name",
+          "label": "Nombre",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Descripción",
+          "type": "text"
+        },
+        {
+          "name": "image",
+          "label": "Imagen",
+          "type": "image",
+          "required": true
+        },
+        {
+          "name": "order",
+          "label": "Orden",
+          "type": "number"
+        },
+        {
+          "name": "hidden",
+          "label": "Oculta",
+          "type": "boolean"
+        },
+        {
+          "name": "parent",
+          "label": "ID de categoría superior (vacío si es principal)",
+          "type": "string"
+        },
+        {
+          "name": "kind",
+          "label": "Tipo",
+          "type": "select",
+          "options": {
+            "values": [
+              "category",
+              "collection"
+            ]
+          },
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "label": "Configuración del negocio",
+      "type": "file",
+      "path": "content/settings.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Nombre del negocio",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Descripción de marca",
+          "type": "text"
+        },
+        {
+          "name": "whatsapp",
+          "label": "WhatsApp internacional, ejemplo +593…",
+          "type": "string",
+          "pattern": "^$|^\\+[1-9]\\d{7,14}$"
+        },
+        {
+          "name": "domain",
+          "label": "Dominio HTTPS, sin barra final",
+          "type": "string"
+        },
+        {
+          "name": "demo",
+          "label": "Modo demostración",
+          "type": "boolean"
+        },
+        {
+          "name": "indexable",
+          "label": "Permitir indexación (solo tienda real aprobada)",
+          "type": "boolean"
+        },
+        {
+          "name": "logo",
+          "label": "Logotipo definitivo",
+          "type": "image"
+        },
+        {
+          "name": "favicon",
+          "label": "Icono del sitio",
+          "type": "image"
+        },
+        {
+          "name": "email",
+          "label": "Correo comercial",
+          "type": "string"
+        },
+        {
+          "name": "address",
+          "label": "Dirección",
+          "type": "text"
+        },
+        {
+          "name": "hours",
+          "label": "Horarios",
+          "type": "text"
+        },
+        {
+          "name": "instagram",
+          "label": "Instagram (URL HTTPS)",
+          "type": "string"
+        },
+        {
+          "name": "facebook",
+          "label": "Facebook (URL HTTPS)",
+          "type": "string"
+        },
+        {
+          "name": "tiktok",
+          "label": "TikTok (URL HTTPS)",
+          "type": "string"
+        },
+        {
+          "name": "accent",
+          "label": "Color principal hexadecimal",
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "required": true
+        },
+        {
+          "name": "cream",
+          "label": "Color crema hexadecimal",
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "required": true
+        },
+        {
+          "name": "seoTitle",
+          "label": "Título SEO",
+          "type": "string"
+        },
+        {
+          "name": "seoDescription",
+          "label": "Descripción SEO",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "label": "Página de inicio",
+      "type": "file",
+      "path": "content/home.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "slides",
+          "label": "Carrusel (arrastra para ordenar)",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "eyebrow",
+              "label": "Antetítulo",
+              "type": "string"
+            },
+            {
+              "name": "title",
+              "label": "Título (admite salto de línea)",
+              "type": "text"
+            },
+            {
+              "name": "description",
+              "label": "Descripción",
+              "type": "text"
+            },
+            {
+              "name": "image",
+              "label": "Fotografía",
+              "type": "image",
+              "required": true
+            },
+            {
+              "name": "alt",
+              "label": "Descripción accesible",
+              "type": "string"
+            },
+            {
+              "name": "button",
+              "label": "Texto del botón",
+              "type": "string"
+            },
+            {
+              "name": "href",
+              "label": "Ruta interna, ejemplo /mujer/",
+              "type": "string",
+              "pattern": "^/(?!/)",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "editorial",
+          "label": "Colección editorial",
+          "type": "object",
+          "fields": [
+            {
+              "name": "eyebrow",
+              "label": "Antetítulo",
+              "type": "string"
+            },
+            {
+              "name": "title",
+              "label": "Título (admite salto de línea)",
+              "type": "text"
+            },
+            {
+              "name": "description",
+              "label": "Descripción",
+              "type": "text"
+            },
+            {
+              "name": "image",
+              "label": "Fotografía",
+              "type": "image",
+              "required": true
+            },
+            {
+              "name": "alt",
+              "label": "Descripción accesible",
+              "type": "string"
+            },
+            {
+              "name": "button",
+              "label": "Texto del botón",
+              "type": "string"
+            },
+            {
+              "name": "href",
+              "label": "Ruta interna, ejemplo /mujer/",
+              "type": "string",
+              "pattern": "^/(?!/)",
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "sections",
+          "label": "Orden de secciones: categories, new, editorial, featured",
+          "type": "string",
+          "list": true
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "label": "Políticas y páginas informativas",
+      "type": "collection",
+      "path": "content/pages",
+      "format": "json",
+      "filename": "{fields.slug}.json",
+      "view": {
+        "primary": "title"
+      },
+      "fields": [
+        {
+          "name": "slug",
+          "label": "Ruta (no cambiar para páginas enlazadas)",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "title",
+          "label": "Título",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "body",
+          "label": "Contenido",
+          "type": "text",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "guides",
+      "label": "Guías de tallas",
+      "type": "file",
+      "path": "content/guides.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "id",
+          "label": "Identificador",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "required": true
+        },
+        {
+          "name": "title",
+          "label": "Título",
+          "type": "string"
+        },
+        {
+          "name": "body",
+          "label": "Medidas e instrucciones",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

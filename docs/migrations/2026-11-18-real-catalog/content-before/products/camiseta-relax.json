@@ -1,0 +1,61 @@
+{
+  "id": "enara-013",
+  "slug": "camiseta-relax",
+  "name": "Camiseta Relax",
+  "description": "Diseño versátil de líneas limpias, pensado para combinar con tus esenciales de todos los días. Producto de demostración con ilustraciones originales; no representa mercancía real.",
+  "price": 2490,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "camisetas",
+  "collections": [
+    "basicos"
+  ],
+  "tags": [
+    "casual",
+    "suave",
+    "Camiseta Relax"
+  ],
+  "status": "disponible",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "colors": [
+    {
+      "name": "Beige",
+      "hex": "#d4c0a5",
+      "image": "/media/tee-beige.svg"
+    },
+    {
+      "name": "Negro",
+      "hex": "#242323",
+      "image": "/media/tee-black.svg"
+    }
+  ],
+  "disabledVariants": [
+    {
+      "size": "XXL",
+      "color": "Beige"
+    }
+  ],
+  "images": [
+    {
+      "src": "/media/tee-beige.svg",
+      "alt": "Ilustración de demostración: Camiseta Relax en Beige"
+    },
+    {
+      "src": "/media/tee-black.svg",
+      "alt": "Ilustración de demostración: Camiseta Relax en Negro"
+    }
+  ],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-04",
+  "materials": "Ejemplo: composición por confirmar por el propietario.",
+  "care": "Ejemplo: seguir las instrucciones de la etiqueta de la prenda.",
+  "sizeGuide": "adulto",
+  "demo": true
+}

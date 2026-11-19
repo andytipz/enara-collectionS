@@ -1,0 +1,61 @@
+{
+  "id": "enara-016",
+  "slug": "calentador-soft",
+  "name": "Calentador Soft",
+  "description": "Diseño versátil de líneas limpias, pensado para combinar con tus esenciales de todos los días. Producto de demostración con ilustraciones originales; no representa mercancía real.",
+  "price": 3490,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "calentadores",
+  "collections": [
+    "deportivo"
+  ],
+  "tags": [
+    "casual",
+    "suave",
+    "Calentador Soft"
+  ],
+  "status": "disponible",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "colors": [
+    {
+      "name": "Negro",
+      "hex": "#242323",
+      "image": "/media/pants-black.svg"
+    },
+    {
+      "name": "Beige",
+      "hex": "#d4c0a5",
+      "image": "/media/pants-beige.svg"
+    }
+  ],
+  "disabledVariants": [
+    {
+      "size": "XXL",
+      "color": "Beige"
+    }
+  ],
+  "images": [
+    {
+      "src": "/media/pants-black.svg",
+      "alt": "Ilustración de demostración: Calentador Soft en Negro"
+    },
+    {
+      "src": "/media/pants-beige.svg",
+      "alt": "Ilustración de demostración: Calentador Soft en Beige"
+    }
+  ],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-01",
+  "materials": "Ejemplo: composición por confirmar por el propietario.",
+  "care": "Ejemplo: seguir las instrucciones de la etiqueta de la prenda.",
+  "sizeGuide": "adulto",
+  "demo": true
+}

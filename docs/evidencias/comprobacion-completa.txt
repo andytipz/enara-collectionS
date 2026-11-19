@@ -1,0 +1,125 @@
+
+> enara-collection@1.0.0 check
+> npm run typecheck && npm run lint && npm test && npm run build && npm run verify:export
+
+
+> enara-collection@1.0.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+> enara-collection@1.0.0 lint
+> eslint .
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+> enara-collection@1.0.0 test
+> tsx --test tests/*.test.ts tests/*.test.tsx
+
+✔ dinero: centavos exactos, formato USD y límite técnico (16.779009ms)
+✔ carrito combina variantes iguales y mantiene distintas (0.404778ms)
+✔ rechaza cantidades inválidas sin límite comercial arbitrario (0.241653ms)
+✔ datos locales corruptos, duplicados y totales excesivos se sanejan (0.89246ms)
+✔ revalidación detecta eliminado, oculto, agotado y variante desactivada (0.286961ms)
+✔ precios actualizados requieren revisión y subtotal nuevo (0.481113ms)
+✔ tallas infantiles y combinaciones específicas (0.194092ms)
+✔ WhatsApp: caracteres, saltos, líneas completas y subtotal (1.039621ms)
+✔ pedido extenso conserva todas las líneas y usa alternativa (15.169392ms)
+✔ búsqueda por categoría, descripción, colección, tilde y error simple (0.81255ms)
+✔ filtros combinables, ordenamiento, ocultos y estado vacío (1.452351ms)
+✔ ficha exige variantes; talla y color se guardan; favorito persiste (277.541686ms)
+✔ carrito restaura y modifica cantidades, elimina y vacía (24.109412ms)
+✔ WhatsApp revisa catálogo y bloquea envío con cambios de precio (45.900423ms)
+✔ catálogo combina filtros y sincroniza URL (172.598341ms)
+✔ galería cambia imagen y color, guía de tallas y zoom abren (171.277413ms)
+✔ agotado desactiva compra y favoritos se restauran tras remontar (59.652347ms)
+✔ preparar pedido conserva carrito y ofrece texto completo sin número configurado (27.908543ms)
+✔ fallo de red detiene preparación de pedido (24.903004ms)
+✔ CMS cubre todos los campos de contenidos reales y apunta a archivos existentes (19.236733ms)
+✔ esquema rechaza precios fraccionarios, promociones falsas y URLs de imagen externas (0.696356ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2997.090004
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+> enara-collection@1.0.0 build
+> tsx scripts/validate.ts && next build && tsx scripts/export-catalog.ts
+
+Contenido válido: 17 productos, 15 categorías, 6 páginas. Imágenes decodificadas y CMS parseado.
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 28ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 580ms
+  Running TypeScript ...
+  Finished TypeScript in 2.3s ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/39) ...
+  Generating static pages using 2 workers (9/39) 
+  Generating static pages using 2 workers (19/39) 
+  Generating static pages using 2 workers (29/39) 
+✓ Generating static pages using 2 workers (39/39) in 778ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /catalogo
+│ ├ ● /buscar
+│ ├ ● /novedades
+│ └ ● [+12 more paths]
+├   /colecciones/[slug]
+│ ├ ● /colecciones/deportivo
+│ ├ ● /colecciones/old-money
+│ └ ● /colecciones/basicos
+├   /producto/[slug]
+│ ├ ● /producto/calentador-everyday
+│ ├ ● /producto/calentador-soft
+│ ├ ● /producto/camiseta-mini
+│ └ ● [+13 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Catálogo actualizable, imágenes optimizadas y cabeceras preparados en out/.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+
+> enara-collection@1.0.0 verify:export
+> tsx scripts/verify-export.ts
+
+35 rutas verificadas: HTML indexable, enlaces internos, imágenes, metadatos, catálogo, 404 y exclusión de ocultos.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

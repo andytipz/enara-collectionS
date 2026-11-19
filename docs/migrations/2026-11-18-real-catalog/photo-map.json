@@ -1,0 +1,436 @@
+[
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/verde-oliva/ENA-MUJ-001-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C01",
+    "sha256": "f79a5de08c67ce2b42ab8e64c0faefa129a10cd7321054dbb77e5729266c308c"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/gris-jaspeado/ENA-MUJ-001-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C02",
+    "sha256": "5143505f3e8f03d012401bbb4050d7edc5247c592ea8173471010bed92289b80"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/negro/ENA-MUJ-001-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C03_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C03",
+    "sha256": "9116f9cbfaf8e6b811946c4b0f6d0e97c10d5d800b502b1d9ef730bd9cb393d1"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/cafe/ENA-MUJ-001-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C04_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C04",
+    "sha256": "83325a596737cf733e65f7966a7ca04421814318de26184d4dee660beaebe43d"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/gris-grafito/ENA-MUJ-001-C05_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C05_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C05",
+    "sha256": "eace778015f5c8760e077f8065392454b4db57afc4984f65b211a4da206bf56a"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/gris-claro/ENA-MUJ-001-C06_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C06_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C06",
+    "sha256": "6c6cc783b18a16b374c97976c167a7dc8d59eb4f02ec49c075c2a0392aa872a2"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/verde-menta/ENA-MUJ-001-C07_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C07_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C07",
+    "sha256": "4dee02485d69daa0554ee9403127b4d651fefb22f904cfc845bdb1690530cd10"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/azul-marino/ENA-MUJ-001-C08_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C08_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C08",
+    "sha256": "8b6055347ba5504d479e98e370d20210db9808aff1f6876b42f8ab720aa8692a"
+  },
+  {
+    "original": "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/rojo/ENA-MUJ-001-C09_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C09_01_principal.jpg",
+    "productId": "ENA-MUJ-001",
+    "variantId": "ENA-MUJ-001-C09",
+    "sha256": "a784ae47f5645df953cafebd9015efa6ac148f981c653e6140372fbafd3311d8"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-002/negro/ENA-MUJ-002-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-002/ENA-MUJ-002-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-002",
+    "variantId": "ENA-MUJ-002-C01",
+    "sha256": "972d9f014db885151de0e49507288715401e110bf236d9cedf15512e4bfe1ba2"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-002/azul-electrico-con-top-negro/ENA-MUJ-002-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-002/ENA-MUJ-002-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-002",
+    "variantId": "ENA-MUJ-002-C02",
+    "sha256": "34f49943ba88ee8c4715b982b4a801272c60b79ef6f93536d2b74a6f1f913336"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C01",
+    "sha256": "95909f4be3ef219a18db9e4ee7ba0efa20c552c3d0b60f66d04e5cd963c36efe"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_02_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_02_foto_con_modelo.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C01",
+    "sha256": "cba0c8ad07b7ec7c684d5a150aa97a3f51e118e689cd336294e878c080895392"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_03_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_03_foto_con_modelo.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C01",
+    "sha256": "a80785666939e664fe0c71f302efa9465cd44818813a4bafbb986cfeba638476"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_04_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_04_foto_con_modelo.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C01",
+    "sha256": "b5f7cae8bb2465fe298095dbc4a131d4c7eee3ca1faa7b2a5dc24433cfec145b"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/fucsia-y-negro/ENA-MUJ-003-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C02",
+    "sha256": "b40da728182c70e2f1d1ed98bf911fe7a3b385b628e9428e4c8cde7e897debfd"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/celeste-y-negro/ENA-MUJ-003-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C03_01_principal.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C03",
+    "sha256": "41dea21ae6b9eda8ba04e756c87acc2bce78e284aab55636a57d447c16dbd877"
+  },
+  {
+    "original": "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/verde-pastel-y-negro/ENA-MUJ-003-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C04_01_principal.jpg",
+    "productId": "ENA-MUJ-003",
+    "variantId": "ENA-MUJ-003-C04",
+    "sha256": "625dafe58bebccb7ada9de9a88a7ebdd117726776065a0c66a611125c6d3e5e3"
+  },
+  {
+    "original": "Fotografias/Mujer/Jeans/ENA-MUJ-004/azul-claro/ENA-MUJ-004-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-004/ENA-MUJ-004-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-004",
+    "variantId": "ENA-MUJ-004-C01",
+    "sha256": "125f72509917af68957a2d07efa476fc5c0467aa2c4351a592c2b2553b960c65"
+  },
+  {
+    "original": "Fotografias/Mujer/Jeans/ENA-MUJ-004/azul-indigo-oscuro/ENA-MUJ-004-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-004/ENA-MUJ-004-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-004",
+    "variantId": "ENA-MUJ-004-C02",
+    "sha256": "24a69fce5810fa528b38d2e541b7f06486fc3a22f5af76450c545d8c12ea9165"
+  },
+  {
+    "original": "Fotografias/Mujer/Jeans/ENA-MUJ-005/azul-indigo-medio/ENA-MUJ-005-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-005",
+    "variantId": "ENA-MUJ-005-C01",
+    "sha256": "07e9801ba1db0a7290aae9e0955eb56e69110c5bc2be2dc606beeeb7e6a7b81c"
+  },
+  {
+    "original": "Fotografias/Mujer/Jeans/ENA-MUJ-005/azul-lavado-claro/ENA-MUJ-005-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-005",
+    "variantId": "ENA-MUJ-005-C02",
+    "sha256": "e7674ef47d91b21d15899c3bba719f5c8f1de4dd18d43e2ae82af0a4ac08155e"
+  },
+  {
+    "original": "Fotografias/Mujer/Jeans/ENA-MUJ-005/negro/ENA-MUJ-005-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C03_01_principal.jpg",
+    "productId": "ENA-MUJ-005",
+    "variantId": "ENA-MUJ-005-C03",
+    "sha256": "4b53e83917092f92621edd4467be0b9d704f254d07c52e87781589d220165956"
+  },
+  {
+    "original": "Fotografias/Mujer/Jeans/ENA-MUJ-005/azul-indigo-profundo/ENA-MUJ-005-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C04_01_principal.jpg",
+    "productId": "ENA-MUJ-005",
+    "variantId": "ENA-MUJ-005-C04",
+    "sha256": "1ba29473d2f9b4f07c632f75409de9354ddef7a7f203d1eda2eb0fb25fea4ceb"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/blanco-crema/ENA-MUJ-006-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-006",
+    "variantId": "ENA-MUJ-006-C01",
+    "sha256": "d08aac90a2d4d8677c8c2d2036b346aec08230c7094afe3d930f7fb8b3f1ac31"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/cafe-chocolate/ENA-MUJ-006-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-006",
+    "variantId": "ENA-MUJ-006-C02",
+    "sha256": "82521186f7c8a3358a3aa1f986865f92206352eb01026ddf2554e70e6e011db2"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/negro/ENA-MUJ-006-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C03_01_principal.jpg",
+    "productId": "ENA-MUJ-006",
+    "variantId": "ENA-MUJ-006-C03",
+    "sha256": "5e7b6db1dd1a2221cf4256db0f066c2db633177442b35bff0d0750db66a3964d"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/camel/ENA-MUJ-006-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C04_01_principal.jpg",
+    "productId": "ENA-MUJ-006",
+    "variantId": "ENA-MUJ-006-C04",
+    "sha256": "1c5ea58aec63a949e9b1a1777b93a07c069a257af2c7dabc61723425eb0be681"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/vino-tinto/ENA-MUJ-006-C05_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C05_01_principal.jpg",
+    "productId": "ENA-MUJ-006",
+    "variantId": "ENA-MUJ-006-C05",
+    "sha256": "777c0c54873af45172791b96e21b685c7f1ba00c2e4b79be57ddb4a17093cc5b"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/azul-marino/ENA-MUJ-007-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C01",
+    "sha256": "5d7bc3d070a0c49fef1016089ea2f0b3cd764af2b903912d15f0d7bc27a6813e"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/vino-tinto/ENA-MUJ-007-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C02",
+    "sha256": "b56503013672d545856c92dc7a4cc8be25fd5aa4674da98c5183d1ee4991b123"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/taupe/ENA-MUJ-007-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C03_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C03",
+    "sha256": "db8205a4c26eea78c1a9b84eee966d09aa6745f5d5b9fe6f009522b5346786be"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/cafe/ENA-MUJ-007-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C04_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C04",
+    "sha256": "449954a5c07635287746a2c10a8a28bcdadc3502fb2edf69881390b9e781953f"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/negro/ENA-MUJ-007-C05_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C05_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C05",
+    "sha256": "70efd2d4c093c65a216a001b5e58b17885c27928cbe7bc572883a4e608dd62f3"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/lila/ENA-MUJ-007-C06_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C06_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C06",
+    "sha256": "934467154a6ba6069c4cc119c8ceff249333045743f5ac25a5f2f7dc5d72fa90"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/marfil/ENA-MUJ-007-C07_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C07_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C07",
+    "sha256": "3c7c78bf3b4b16e534a6aabfd9deecd919dbcf5077da98c2985e73037383501c"
+  },
+  {
+    "original": "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/verde-menta/ENA-MUJ-007-C08_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C08_01_principal.jpg",
+    "productId": "ENA-MUJ-007",
+    "variantId": "ENA-MUJ-007-C08",
+    "sha256": "d8fabd878fcdbe7139ed739dcd03cc823e20963fee401b292f2b750c7bd58bf1"
+  },
+  {
+    "original": "Fotografias/Mujer/Abrigos/ENA-MUJ-008/cafe/ENA-MUJ-008-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C01_01_principal.jpg",
+    "productId": "ENA-MUJ-008",
+    "variantId": "ENA-MUJ-008-C01",
+    "sha256": "be749b772f67a48bba0bab46e42c9bf174e51d426c1a17e4f331952c4c25476c"
+  },
+  {
+    "original": "Fotografias/Mujer/Abrigos/ENA-MUJ-008/negro/ENA-MUJ-008-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C02_01_principal.jpg",
+    "productId": "ENA-MUJ-008",
+    "variantId": "ENA-MUJ-008-C02",
+    "sha256": "e616f1dcb5fc7bb5144ea81f95eede23f693cf159955f376229b80bdc0b8975f"
+  },
+  {
+    "original": "Fotografias/Mujer/Abrigos/ENA-MUJ-008/vino-tinto/ENA-MUJ-008-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C03_01_principal.jpg",
+    "productId": "ENA-MUJ-008",
+    "variantId": "ENA-MUJ-008-C03",
+    "sha256": "724cf3319b961ac89042c302ccbd4cd1163552b282cf682f9cb54f06c8f5f177"
+  },
+  {
+    "original": "Fotografias/Mujer/Abrigos/ENA-MUJ-008/beige/ENA-MUJ-008-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C04_01_principal.jpg",
+    "productId": "ENA-MUJ-008",
+    "variantId": "ENA-MUJ-008-C04",
+    "sha256": "de5d96cb4ac8859868c274f20558672277bf523a39009069c5149b7a1e423cd5"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/negro-con-blanco/ENA-HOM-001-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_01_principal.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C01",
+    "sha256": "41455944ea2dc3bc9d7fd0001c7d7859f316367ce7c020082d8d262122547414"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/negro-con-blanco/ENA-HOM-001-C01_02_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_02_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C01",
+    "sha256": "c697ccc5a2bff139b0c692da51d9abc62b70451fa2abb91c5818bc622a4d6f4d"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/negro-con-blanco/ENA-HOM-001-C01_03_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_03_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C01",
+    "sha256": "6b6c32ac229515e04840968302504cd005485d679ae5dff04166d8d27b4452bb"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/verde-oliva-y-negro/ENA-HOM-001-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C02_01_principal.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C02",
+    "sha256": "4e12b0b256979c8ab4612891a6d18d257d1131793078e81d000e0fcc469806c2"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/azul-claro-y-negro/ENA-HOM-001-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C03_01_principal.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C03",
+    "sha256": "f5bc330cb08ef2a625a1874b152af6038be6be6d2f54fec53c1db4ea14668c3d"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/blanco-con-negro/ENA-HOM-001-C04_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C04_01_principal.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C04",
+    "sha256": "9e41a3e51a2a6b932c09965c5ce8587c4d80fc13ea279fd42484deb5046d4697"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/marfil-y-azul-oscuro/ENA-HOM-001-C05_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C05_01_principal.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C05",
+    "sha256": "8edf717f3d0cf4859e615614b002ee2ef730aea0b60c77e4270a08fa9b357dc3"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-001/azul-electrico-y-negro/ENA-HOM-001-C06_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C06_01_principal.jpg",
+    "productId": "ENA-HOM-001",
+    "variantId": "ENA-HOM-001-C06",
+    "sha256": "aa4cf08d77ae097d688bbb7899e2240091aa7df67b0907974b8b17650b4ee64c"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-002/azul-marino/ENA-HOM-002-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-002/ENA-HOM-002-C01_01_principal.jpg",
+    "productId": "ENA-HOM-002",
+    "variantId": "ENA-HOM-002-C01",
+    "sha256": "7eb912c589e19ded45a67ba871da2a26ea20694f646c70202d1bbe2f85a111c8"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-002/azul-marino/ENA-HOM-002-C01_02_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-002/ENA-HOM-002-C01_02_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-002",
+    "variantId": "ENA-HOM-002-C01",
+    "sha256": "eb9e49088b5fa03790e615afbc586fa225d3d409f531b0b5ca8c137c94230b3d"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-002/azul-marino/ENA-HOM-002-C01_03_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-002/ENA-HOM-002-C01_03_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-002",
+    "variantId": "ENA-HOM-002-C01",
+    "sha256": "1648545ef6f37a9028dfbe103725f1a00ca7be2ce76ee17f4096e6afd4ecb534"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-002/beige/ENA-HOM-002-C02_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-002/ENA-HOM-002-C02_01_principal.jpg",
+    "productId": "ENA-HOM-002",
+    "variantId": "ENA-HOM-002-C02",
+    "sha256": "882f3ac38ea3b95105873689e269d12a1612b18c6cc8c4a3f92b6cdc0b4aae8e"
+  },
+  {
+    "original": "Fotografias/Hombre/Conjuntos/ENA-HOM-002/negro/ENA-HOM-002-C03_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-002/ENA-HOM-002-C03_01_principal.jpg",
+    "productId": "ENA-HOM-002",
+    "variantId": "ENA-HOM-002-C03",
+    "sha256": "4ac366fac5c261f54bdcbab421c1aeb811dad5c80563e53c896eafe83721c471"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-003/negro-y-blanco/ENA-HOM-003-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-003/ENA-HOM-003-C01_01_principal.jpg",
+    "productId": "ENA-HOM-003",
+    "variantId": "ENA-HOM-003-C01",
+    "sha256": "cde0ab131859fe68cf28c3da4a584801d6b4e67b25f76a985c50040c8ac4f874"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-003/negro-y-blanco/ENA-HOM-003-C01_02_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-003/ENA-HOM-003-C01_02_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-003",
+    "variantId": "ENA-HOM-003-C01",
+    "sha256": "59cd7f8732aabd77b33cb05e798010bed91bf66069d53b78cdcbf23c0e697921"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-003/negro-y-blanco/ENA-HOM-003-C01_03_foto_con_modelo.png",
+    "published": "/media/catalogo/ENA-HOM-003/ENA-HOM-003-C01_03_foto_con_modelo.png",
+    "productId": "ENA-HOM-003",
+    "variantId": "ENA-HOM-003-C01",
+    "sha256": "ef4873080dc263b5cc2c819d73ec794ad2b251acf9fee75b7a708ee04c9c1c43"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-004/rojo-y-blanco/ENA-HOM-004-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_01_principal.jpg",
+    "productId": "ENA-HOM-004",
+    "variantId": "ENA-HOM-004-C01",
+    "sha256": "a293ff43d9c00acd7bc8ae77d7a6f2dea7ea9bf2f947353b59de5a8336c3fbbd"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-004/rojo-y-blanco/ENA-HOM-004-C01_02_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_02_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-004",
+    "variantId": "ENA-HOM-004-C01",
+    "sha256": "edb5d34f5a213a5987c48b3f3b03c8897674fa46bcbdbbcc71a323a154b18c04"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-004/rojo-y-blanco/ENA-HOM-004-C01_03_foto_con_modelo.png",
+    "published": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_03_foto_con_modelo.png",
+    "productId": "ENA-HOM-004",
+    "variantId": "ENA-HOM-004-C01",
+    "sha256": "a4c014fd470dfa67daf9cfdde19ed6e03ac3b951335c035bb72ef9ad841d2b35"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-005/blanco/ENA-HOM-005-C01_01_principal.jpg",
+    "published": "/media/catalogo/ENA-HOM-005/ENA-HOM-005-C01_01_principal.jpg",
+    "productId": "ENA-HOM-005",
+    "variantId": "ENA-HOM-005-C01",
+    "sha256": "abe6f9db20ae78be9725e8d33a90cb8316452629d4fbad0bb32b5c2d41672479"
+  },
+  {
+    "original": "Fotografias/Hombre/Chaquetas/ENA-HOM-005/blanco/ENA-HOM-005-C01_02_foto_con_modelo.jpg",
+    "published": "/media/catalogo/ENA-HOM-005/ENA-HOM-005-C01_02_foto_con_modelo.jpg",
+    "productId": "ENA-HOM-005",
+    "variantId": "ENA-HOM-005-C01",
+    "sha256": "328ed8b461baed516e85e78a15131c72db4feb0e7ec29f3282845c8568fb6239"
+  }
+]

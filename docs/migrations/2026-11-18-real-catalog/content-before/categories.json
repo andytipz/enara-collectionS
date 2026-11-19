@@ -1,0 +1,152 @@
+[
+  {
+    "id": "mujer",
+    "name": "Mujer",
+    "description": "Prendas versátiles para tu estilo diario.",
+    "image": "/media/woman.jpg",
+    "order": 0,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "hombre",
+    "name": "Hombre",
+    "description": "Prendas versátiles para tu estilo diario.",
+    "image": "/media/man.jpg",
+    "order": 1,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "ninos",
+    "name": "Niños",
+    "description": "Prendas versátiles para tu estilo diario.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 2,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "deportivo",
+    "name": "Deportivo",
+    "description": "Prendas versátiles para tu estilo diario.",
+    "image": "/media/hoodie-wine.svg",
+    "order": 3,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  },
+  {
+    "id": "old-money",
+    "name": "Old Money",
+    "description": "Prendas versátiles para tu estilo diario.",
+    "image": "/media/polo-beige.svg",
+    "order": 4,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  },
+  {
+    "id": "basicos",
+    "name": "Básicos",
+    "description": "Prendas versátiles para tu estilo diario.",
+    "image": "/media/hoodie-wine.svg",
+    "order": 5,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  },
+  {
+    "id": "conjuntos",
+    "name": "Conjuntos",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 10,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "jeans",
+    "name": "Jeans",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 11,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "chaquetas",
+    "name": "Chaquetas",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 12,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "camisetas",
+    "name": "Camisetas",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 13,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "calentadores",
+    "name": "Calentadores",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 14,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "polos",
+    "name": "Polos",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 15,
+    "hidden": false,
+    "parent": "",
+    "kind": "category"
+  },
+  {
+    "id": "ninas",
+    "name": "Niñas",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 16,
+    "hidden": false,
+    "parent": "ninos",
+    "kind": "category"
+  },
+  {
+    "id": "ninos-infantil",
+    "name": "Niños",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 17,
+    "hidden": false,
+    "parent": "ninos",
+    "kind": "category"
+  },
+  {
+    "id": "bebes",
+    "name": "Bebés",
+    "description": "Explora la selección.",
+    "image": "/media/hoodie-beige.svg",
+    "order": 18,
+    "hidden": true,
+    "parent": "ninos",
+    "kind": "category"
+  }
+]

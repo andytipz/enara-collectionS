@@ -1,0 +1,948 @@
+{
+  "proyecto": "ENARA Collection",
+  "tipo": "catalogo_preparado_pendiente_integracion_cms",
+  "nota": "Precios iniciales asignados por la tabla del propietario. Tallas y estados reales siguen pendientes. MUJ-002 y MUJ-008 requieren confirmar correspondencia de tipo para evitar cobrar tarifa incorrecta. 50 variantes por color, no 50 productos.",
+  "colecciones": [
+    "Hombre",
+    "Mujer",
+    "Niño",
+    "Niña"
+  ],
+  "productos": [
+    {
+      "id": "ENA-MUJ-001",
+      "nombre": "Legging Sculpt de Tiro Alto",
+      "publico": "Mujer",
+      "subcategoria": "Licras y leggings",
+      "descripcion_borrador": "Legging ajustado de tiro alto con costuras visibles, bolsillo lateral y logotipo DF.",
+      "nota_revision": "Se distinguen corte y costuras constantes en los colores.",
+      "precio_usd": 20.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-001-C01",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Verde oliva",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/verde-oliva/ENA-MUJ-001-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C02",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Gris jaspeado",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/gris-jaspeado/ENA-MUJ-001-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C03",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Negro",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/negro/ENA-MUJ-001-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C04",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Café",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/cafe/ENA-MUJ-001-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C05",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Gris grafito",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/gris-grafito/ENA-MUJ-001-C05_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C06",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Gris claro",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/gris-claro/ENA-MUJ-001-C06_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C07",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Verde menta",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/verde-menta/ENA-MUJ-001-C07_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C08",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Azul marino",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/azul-marino/ENA-MUJ-001-C08_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-001-C09",
+          "producto_id": "ENA-MUJ-001",
+          "color": "Rojo",
+          "precio_usd": 20.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Licras y leggings/ENA-MUJ-001/rojo/ENA-MUJ-001-C09_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Legging de silueta ajustada con cintura alta y costuras que definen visualmente su diseño. Incorpora un práctico bolsillo lateral y un pequeño detalle gráfico en la pretina. Una opción versátil para crear conjuntos cómodos de estilo casual o activo.",
+      "regla_precio": "Licras mujer",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-002",
+      "nombre": "Conjunto Active Flare K",
+      "publico": "Mujer",
+      "subcategoria": "Conjuntos",
+      "descripcion_borrador": "Conjunto de top corto deportivo y pantalón ajustado con bota acampanada; logotipo K visible.",
+      "nota_revision": "En la variante azul, el top de la foto es negro.",
+      "precio_usd": 45.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-002-C01",
+          "producto_id": "ENA-MUJ-002",
+          "color": "Negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-002/negro/ENA-MUJ-002-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-002-C02",
+          "producto_id": "ENA-MUJ-002",
+          "color": "Azul eléctrico con top negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-002/azul-electrico-con-top-negro/ENA-MUJ-002-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Conjunto de dos piezas con top deportivo de tirantes y pantalón de cintura alta con bota acampanada. Su combinación de líneas limpias y corte estilizado crea una propuesta moderna para looks relajados y dinámicos.",
+      "regla_precio": "Conjuntos mujer (top + pantalón; precio aplicado como conjunto; confirmar si es excepcional)",
+      "estado_precio": "verificar_clasificacion",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-003",
+      "nombre": "Conjunto Urban Contrast",
+      "publico": "Mujer",
+      "subcategoria": "Conjuntos",
+      "descripcion_borrador": "Chaqueta deportiva con cierre frontal y pantalón ajustado con franjas laterales combinadas.",
+      "nota_revision": "Fotografías de modelo y de producto representan un solo diseño, no artículos separados.",
+      "precio_usd": 45.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-003-C01",
+          "producto_id": "ENA-MUJ-003",
+          "color": "Vino tinto y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_01_principal.jpg",
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_02_foto_con_modelo.jpg",
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_03_foto_con_modelo.jpg",
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/vino-tinto-y-negro/ENA-MUJ-003-C01_04_foto_con_modelo.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-003-C02",
+          "producto_id": "ENA-MUJ-003",
+          "color": "Fucsia y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/fucsia-y-negro/ENA-MUJ-003-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-003-C03",
+          "producto_id": "ENA-MUJ-003",
+          "color": "Celeste y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/celeste-y-negro/ENA-MUJ-003-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-003-C04",
+          "producto_id": "ENA-MUJ-003",
+          "color": "Verde pastel y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Conjuntos/ENA-MUJ-003/verde-pastel-y-negro/ENA-MUJ-003-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Conjunto de chaqueta de manga larga con cierre frontal y pantalón ajustado, ambos con detalles gráficos y contrastes de color. Una propuesta coordinada y actual que destaca por sus franjas laterales y su acabado deportivo.",
+      "regla_precio": "Conjuntos calentadores mujer",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-004",
+      "nombre": "Jean Flare de Cuatro Botones",
+      "publico": "Mujer",
+      "subcategoria": "Jeans",
+      "descripcion_borrador": "Jean de corte acampanado con pretina alta, cuatro botones frontales visibles y bolsillos.",
+      "nota_revision": "Diseño diferente del jean con cinturón tejido.",
+      "precio_usd": 28.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-004-C01",
+          "producto_id": "ENA-MUJ-004",
+          "color": "Azul claro",
+          "precio_usd": 28.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Jeans/ENA-MUJ-004/azul-claro/ENA-MUJ-004-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-004-C02",
+          "producto_id": "ENA-MUJ-004",
+          "color": "Azul índigo oscuro",
+          "precio_usd": 28.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Jeans/ENA-MUJ-004/azul-indigo-oscuro/ENA-MUJ-004-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Jean de tiro alto con cierre frontal de cuatro botones visibles, bolsillos delanteros y pierna acampanada. Su diseño aporta un detalle distintivo en la cintura y una silueta de inspiración contemporánea.",
+      "regla_precio": "Jeans mujer",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-005",
+      "nombre": "Jean Flare con Cinturón Tejido",
+      "publico": "Mujer",
+      "subcategoria": "Jeans",
+      "descripcion_borrador": "Jean acampanado con cinturón tejido y hebilla circular; bolsillos delanteros visibles.",
+      "nota_revision": "Confirmar si los dos índigos corresponden a tonos comerciales distintos.",
+      "precio_usd": 28.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-005-C01",
+          "producto_id": "ENA-MUJ-005",
+          "color": "Azul índigo medio",
+          "precio_usd": 28.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Jeans/ENA-MUJ-005/azul-indigo-medio/ENA-MUJ-005-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-005-C02",
+          "producto_id": "ENA-MUJ-005",
+          "color": "Azul lavado claro",
+          "precio_usd": 28.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Jeans/ENA-MUJ-005/azul-lavado-claro/ENA-MUJ-005-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-005-C03",
+          "producto_id": "ENA-MUJ-005",
+          "color": "Negro",
+          "precio_usd": 28.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Jeans/ENA-MUJ-005/negro/ENA-MUJ-005-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-005-C04",
+          "producto_id": "ENA-MUJ-005",
+          "color": "Azul índigo profundo",
+          "precio_usd": 28.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Jeans/ENA-MUJ-005/azul-indigo-profundo/ENA-MUJ-005-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Jean de pierna acampanada con bolsillos delanteros y cinturón de apariencia tejida con hebilla circular. Una combinación de detalles que aporta carácter al look y resalta la cintura.",
+      "regla_precio": "Jeans mujer",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-006",
+      "nombre": "Chaqueta Corta Heritage",
+      "publico": "Mujer",
+      "subcategoria": "Chaquetas",
+      "descripcion_borrador": "Chaqueta corta con cierre frontal, cuello de textura afelpada, detalle de hebilla y puños elásticos.",
+      "nota_revision": "No mezclar con las chaquetas acolchadas con capucha.",
+      "precio_usd": 38.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-006-C01",
+          "producto_id": "ENA-MUJ-006",
+          "color": "Blanco crema",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/blanco-crema/ENA-MUJ-006-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-006-C02",
+          "producto_id": "ENA-MUJ-006",
+          "color": "Café chocolate",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/cafe-chocolate/ENA-MUJ-006-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-006-C03",
+          "producto_id": "ENA-MUJ-006",
+          "color": "Negro",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/negro/ENA-MUJ-006-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-006-C04",
+          "producto_id": "ENA-MUJ-006",
+          "color": "Camel",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/camel/ENA-MUJ-006-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-006-C05",
+          "producto_id": "ENA-MUJ-006",
+          "color": "Vino tinto",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-006/vino-tinto/ENA-MUJ-006-C05_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Chaqueta corta de cuello amplio con acabado de apariencia afelpada, cierre frontal y detalle de hebilla metálica. Los bolsillos verticales y la cintura acanalada completan una silueta definida, ideal para elevar conjuntos cotidianos.",
+      "regla_precio": "Chompas mujer",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-007",
+      "nombre": "Chaqueta Acolchada Chevron",
+      "publico": "Mujer",
+      "subcategoria": "Chaquetas",
+      "descripcion_borrador": "Chaqueta corta acolchada con costuras formando ondas en V, cierre central y capucha de apariencia afelpada.",
+      "nota_revision": "Taupe y café corresponden a imágenes de distinto tono; confirmar nombres comerciales.",
+      "precio_usd": 38.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-007-C01",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Azul marino",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/azul-marino/ENA-MUJ-007-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C02",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Vino tinto",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/vino-tinto/ENA-MUJ-007-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C03",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Taupe",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/taupe/ENA-MUJ-007-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C04",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Café",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/cafe/ENA-MUJ-007-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C05",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Negro",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/negro/ENA-MUJ-007-C05_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C06",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Lila",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/lila/ENA-MUJ-007-C06_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C07",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Marfil",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/marfil/ENA-MUJ-007-C07_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-007-C08",
+          "producto_id": "ENA-MUJ-007",
+          "color": "Verde menta",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Chaquetas/ENA-MUJ-007/verde-menta/ENA-MUJ-007-C08_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Chaqueta acolchada de largo corto, con costuras diagonales en forma de V, capucha con borde de apariencia afelpada y cierre frontal. Sus bolsillos con cierre y detalles en la parte inferior complementan un diseño de presencia marcada.",
+      "regla_precio": "Chompas mujer",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-MUJ-008",
+      "nombre": "Abrigo Largo Belted Winter",
+      "publico": "Mujer",
+      "subcategoria": "Abrigos",
+      "descripcion_borrador": "Abrigo largo acolchado con cinturón anudado, capucha de apariencia afelpada y botones en la parte superior.",
+      "nota_revision": "Diseño largo con cinturón, separado de la chaqueta corta con costura en V.",
+      "precio_usd": 38.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-MUJ-008-C01",
+          "producto_id": "ENA-MUJ-008",
+          "color": "Café",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Abrigos/ENA-MUJ-008/cafe/ENA-MUJ-008-C01_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-008-C02",
+          "producto_id": "ENA-MUJ-008",
+          "color": "Negro",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Abrigos/ENA-MUJ-008/negro/ENA-MUJ-008-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-008-C03",
+          "producto_id": "ENA-MUJ-008",
+          "color": "Vino tinto",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Abrigos/ENA-MUJ-008/vino-tinto/ENA-MUJ-008-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-MUJ-008-C04",
+          "producto_id": "ENA-MUJ-008",
+          "color": "Beige",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Mujer/Abrigos/ENA-MUJ-008/beige/ENA-MUJ-008-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Abrigo acolchado de largo extendido con capucha de borde de apariencia afelpada, cinturón para ajustar visualmente la cintura y detalles metálicos al frente. Una pieza protagonista para looks de temporada con una silueta elegante.",
+      "regla_precio": "Abrigo largo mujer (precio aplicado como chompa mujer; confirmar si difiere)",
+      "estado_precio": "verificar_clasificacion",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-HOM-001",
+      "nombre": "Conjunto Motion Line",
+      "publico": "Hombre",
+      "subcategoria": "Conjuntos",
+      "descripcion_borrador": "Conjunto de chaqueta deportiva con cierre, líneas curvas decorativas y logotipo grande en la manga; pantalón a juego.",
+      "nota_revision": "No unir con el conjunto de franjas en V y bolsillo de manga.",
+      "precio_usd": 45.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-HOM-001-C01",
+          "producto_id": "ENA-HOM-001",
+          "color": "Negro con blanco",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/negro-con-blanco/ENA-HOM-001-C01_01_principal.jpg",
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/negro-con-blanco/ENA-HOM-001-C01_02_foto_con_modelo.jpg",
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/negro-con-blanco/ENA-HOM-001-C01_03_foto_con_modelo.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-001-C02",
+          "producto_id": "ENA-HOM-001",
+          "color": "Verde oliva y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/verde-oliva-y-negro/ENA-HOM-001-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-001-C03",
+          "producto_id": "ENA-HOM-001",
+          "color": "Azul claro y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/azul-claro-y-negro/ENA-HOM-001-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-001-C04",
+          "producto_id": "ENA-HOM-001",
+          "color": "Blanco con negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/blanco-con-negro/ENA-HOM-001-C04_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-001-C05",
+          "producto_id": "ENA-HOM-001",
+          "color": "Marfil y azul oscuro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/marfil-y-azul-oscuro/ENA-HOM-001-C05_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-001-C06",
+          "producto_id": "ENA-HOM-001",
+          "color": "Azul eléctrico y negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-001/azul-electrico-y-negro/ENA-HOM-001-C06_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Conjunto de chaqueta con cierre frontal y pantalón coordinado. Las líneas curvas sobre el frente, los contrastes en las mangas y los detalles gráficos aportan una identidad visual dinámica. Disponible en varias combinaciones de color.",
+      "regla_precio": "Conjuntos calentadores hombre",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-HOM-002",
+      "nombre": "Conjunto V-Line Performance",
+      "publico": "Hombre",
+      "subcategoria": "Conjuntos",
+      "descripcion_borrador": "Conjunto de chaqueta con franjas en V sobre el pecho y bolsillo con cierre en una manga, más pantalón a juego.",
+      "nota_revision": "La segunda foto plana negra es una duplicación exacta de la primera.",
+      "precio_usd": 45.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-HOM-002-C01",
+          "producto_id": "ENA-HOM-002",
+          "color": "Azul marino",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-002/azul-marino/ENA-HOM-002-C01_01_principal.jpg",
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-002/azul-marino/ENA-HOM-002-C01_02_foto_con_modelo.jpg",
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-002/azul-marino/ENA-HOM-002-C01_03_foto_con_modelo.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-002-C02",
+          "producto_id": "ENA-HOM-002",
+          "color": "Beige",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-002/beige/ENA-HOM-002-C02_01_principal.jpg"
+          ],
+          "observaciones": ""
+        },
+        {
+          "sku_variante": "ENA-HOM-002-C03",
+          "producto_id": "ENA-HOM-002",
+          "color": "Negro",
+          "precio_usd": 45.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Conjuntos/ENA-HOM-002/negro/ENA-HOM-002-C03_01_principal.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Conjunto de chaqueta con cierre y pantalón a juego, distinguido por las franjas angulares en V sobre el pecho y el bolsillo con cierre en la manga. Su diseño de líneas definidas se adapta a combinaciones urbanas y casuales.",
+      "regla_precio": "Conjuntos calentadores hombre",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-HOM-003",
+      "nombre": "Chaqueta Puffer Contrast",
+      "publico": "Hombre",
+      "subcategoria": "Chaquetas",
+      "descripcion_borrador": "Chaqueta corta acolchada bicolor negra y blanca con capucha y detalles gráficos al frente y mangas.",
+      "nota_revision": "Fotografías de modelo y de prenda pertenecen al mismo producto.",
+      "precio_usd": 38.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-HOM-003-C01",
+          "producto_id": "ENA-HOM-003",
+          "color": "Negro y blanco",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-003/negro-y-blanco/ENA-HOM-003-C01_01_principal.jpg",
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-003/negro-y-blanco/ENA-HOM-003-C01_02_foto_con_modelo.jpg",
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-003/negro-y-blanco/ENA-HOM-003-C01_03_foto_con_modelo.png"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Chaqueta acolchada de corte corto con capucha, cuerpo negro y mangas blancas. El contraste de color, los detalles gráficos y los bolsillos con cierre crean un diseño llamativo para un estilo urbano.",
+      "regla_precio": "Chompas hombres",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-HOM-004",
+      "nombre": "Chaqueta Varsity 23",
+      "publico": "Hombre",
+      "subcategoria": "Chaquetas",
+      "descripcion_borrador": "Chaqueta acolchada bicolor roja y blanca, con capucha, letra P grande y número 23 en la manga.",
+      "nota_revision": "Es un diseño diferente de la chaqueta negra/blanca de la misma sección.",
+      "precio_usd": 38.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-HOM-004-C01",
+          "producto_id": "ENA-HOM-004",
+          "color": "Rojo y blanco",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-004/rojo-y-blanco/ENA-HOM-004-C01_01_principal.jpg",
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-004/rojo-y-blanco/ENA-HOM-004-C01_02_foto_con_modelo.jpg",
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-004/rojo-y-blanco/ENA-HOM-004-C01_03_foto_con_modelo.png"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Chaqueta acolchada con capucha y cierre frontal, en combinación de rojo y blanco. Destaca por el gran emblema tipo universitario en el pecho y el número 23 en la manga, que le aportan un carácter expresivo.",
+      "regla_precio": "Chompas hombres",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    },
+    {
+      "id": "ENA-HOM-005",
+      "nombre": "Chaqueta Puffer Polar White",
+      "publico": "Hombre",
+      "subcategoria": "Chaquetas",
+      "descripcion_borrador": "Chaqueta acolchada blanca con capucha, cierre frontal, bolsillos con cierres contrastantes y detalles oscuros.",
+      "nota_revision": "Imagen plana y foto puesta en modelo pertenecen a la misma prenda.",
+      "precio_usd": 38.0,
+      "tallas_disponibles": [],
+      "disponibilidad": "por_confirmar",
+      "visible": false,
+      "marca_autenticidad": "no_verificada",
+      "colores": [
+        {
+          "sku_variante": "ENA-HOM-005-C01",
+          "producto_id": "ENA-HOM-005",
+          "color": "Blanco",
+          "precio_usd": 38.0,
+          "tallas": [],
+          "disponibilidad": "por_confirmar",
+          "visible": false,
+          "imagenes": [
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-005/blanco/ENA-HOM-005-C01_01_principal.jpg",
+            "Fotografias/Hombre/Chaquetas/ENA-HOM-005/blanco/ENA-HOM-005-C01_02_foto_con_modelo.jpg"
+          ],
+          "observaciones": ""
+        }
+      ],
+      "descripcion_profesional": "Chaqueta acolchada blanca de manga larga con capucha y cierre frontal. Los bolsillos con cremallera contrastante y los detalles oscuros en puños y cintura aportan definición a un diseño limpio y versátil.",
+      "regla_precio": "Chompas hombres",
+      "estado_precio": "asignado_por_tarifa_usuario",
+      "cuidados": "Recomendamos revisar la etiqueta de cuidado antes del primer lavado. Lavar con colores similares y detergente suave; evitar blanqueadores y temperaturas elevadas salvo que la etiqueta indique lo contrario. Secar según las instrucciones de la prenda y no planchar directamente sobre estampados, aplicaciones o detalles afelpados.",
+      "entrega_y_condiciones": "La disponibilidad de cada prenda se confirma directamente con ENARA antes de finalizar el pedido. El costo de envío depende de la distancia y se informa previamente. También puedes coordinar el retiro presencial de tu pedido en el punto indicado por la tienda.",
+      "formas_de_pago": "Aceptamos transferencia bancaria o efectivo. Los datos y la forma de pago se coordinan directamente con ENARA al confirmar el pedido por WhatsApp. No solicitamos tarjetas ni procesamos pagos dentro del sitio."
+    }
+  ]
+}

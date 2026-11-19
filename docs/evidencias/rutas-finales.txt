@@ -1,0 +1,10 @@
+
+> enara-collection@1.0.0 verify:export
+> tsx scripts/verify-export.ts
+
+35 rutas verificadas: HTML indexable, enlaces internos, imágenes, metadatos, catálogo, 404 y exclusión de ocultos.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

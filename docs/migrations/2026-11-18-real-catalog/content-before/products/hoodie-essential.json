@@ -1,0 +1,71 @@
+{
+  "id": "enara-001",
+  "slug": "hoodie-essential",
+  "name": "Hoodie Essential",
+  "description": "Diseño versátil de líneas limpias, pensado para combinar con tus esenciales de todos los días. Producto de demostración con ilustraciones originales; no representa mercancía real.",
+  "price": 4490,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "conjuntos",
+  "collections": [
+    "basicos",
+    "deportivo"
+  ],
+  "tags": [
+    "casual",
+    "suave",
+    "Hoodie Essential"
+  ],
+  "status": "disponible",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "colors": [
+    {
+      "name": "Borgoña",
+      "hex": "#800c2b",
+      "image": "/media/hoodie-wine.svg"
+    },
+    {
+      "name": "Negro",
+      "hex": "#242323",
+      "image": "/media/hoodie-black.svg"
+    },
+    {
+      "name": "Beige",
+      "hex": "#d4c0a5",
+      "image": "/media/hoodie-beige.svg"
+    }
+  ],
+  "disabledVariants": [
+    {
+      "size": "XXL",
+      "color": "Beige"
+    }
+  ],
+  "images": [
+    {
+      "src": "/media/hoodie-wine.svg",
+      "alt": "Ilustración de demostración: Hoodie Essential en Borgoña"
+    },
+    {
+      "src": "/media/hoodie-black.svg",
+      "alt": "Ilustración de demostración: Hoodie Essential en Negro"
+    },
+    {
+      "src": "/media/hoodie-beige.svg",
+      "alt": "Ilustración de demostración: Hoodie Essential en Beige"
+    }
+  ],
+  "isNew": true,
+  "featured": false,
+  "date": "2026-11-16",
+  "materials": "Ejemplo: composición por confirmar por el propietario.",
+  "care": "Ejemplo: seguir las instrucciones de la etiqueta de la prenda.",
+  "sizeGuide": "adulto",
+  "demo": true
+}

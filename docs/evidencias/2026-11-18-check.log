@@ -1,0 +1,132 @@
+
+> enara-collection@1.0.0 check
+> npm run typecheck && npm run lint && npm test && npm run build && npm run verify:export
+
+
+> enara-collection@1.0.0 typecheck
+> tsc --noEmit
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice
+
+> enara-collection@1.0.0 lint
+> eslint .
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice
+
+> enara-collection@1.0.0 test
+> tsx --test tests/*.test.ts tests/*.test.tsx
+
+✔ centavos exactos, USD y límite técnico (13.047288ms)
+✔ mismas variantes se combinan; otras tallas y colores se separan (0.21897ms)
+✔ no hay límite comercial de cantidades; se rechazan inválidas (0.214452ms)
+✔ persistencia rechaza corrupción y combina líneas duplicadas (0.607543ms)
+✔ revalidación detecta eliminado, oculto, agotado y por confirmar (0.353592ms)
+✔ precio cambiado requiere aceptar; precio sin confirmar impide pedido (0.535605ms)
+✔ disponibilidad, ocultación y tallas específicas de color (0.469375ms)
+✔ WhatsApp contiene variantes, precios exactos, tildes y salto de línea (0.822255ms)
+✔ pedido de 200 líneas se conserva completo con alternativa de copia (10.156755ms)
+✔ búsqueda por descripción, público, color y error simple (0.746913ms)
+✔ filtros combinados y ordenamiento excluyen ocultos (0.538679ms)
+✔ cabecera solo Inicio y Colecciones; cuatro opciones y pedido flotante (88.264059ms)
+✔ tres portadas navegables con flechas y controles (222.158196ms)
+✔ producto real muestra talla por confirmar, sin guía y no permite pedido (57.137028ms)
+✔ cambiar color reemplaza galería completa y no mezcla diseños (73.074439ms)
+✔ tallas confirmadas exigen selección y guardan color y favorito (115.58085ms)
+✔ carrito restaura, modifica y vacía sin perder precisión (12.764052ms)
+✔ precio cambiado exige aceptación antes de WhatsApp (44.738434ms)
+✔ WhatsApp genera texto completo, conserva carrito y avisa número pendiente (21.75184ms)
+✔ búsqueda visible, filtros y URL; colecciones infantiles vacías (83.53509ms)
+✔ exactamente 13 diseños reales, 50 colores, 62 fotos y cuatro colecciones (1.209828ms)
+✔ nombres, descripciones, IDs y precios oficiales coinciden con el ZIP (0.342154ms)
+✔ fotografías originales sin alteraciones, agrupadas por diseño/color y sin duplicado (11.870249ms)
+✔ no se inventan tallas, disponibilidad, descuentos ni novedades (0.992842ms)
+✔ tres portadas correctas y editorial original; infantil provisional identificada (0.238128ms)
+✔ CMS cubre datos persistidos y referencia subcategorías ampliables (28.305599ms)
+✔ esquema rechaza fracciones, promociones inválidas e imágenes peligrosas (1.291081ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2740.573008
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice
+
+> enara-collection@1.0.0 build
+> tsx scripts/validate.ts && next build && tsx scripts/export-catalog.ts
+
+Contenido válido: 13 diseños, 50 colores, 62 fotografías; cuatro colecciones.
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 28ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 609ms
+  Running TypeScript ...
+  Finished TypeScript in 2.7s ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/38) ...
+  Generating static pages using 2 workers (9/38) 
+  Generating static pages using 2 workers (18/38) 
+  Generating static pages using 2 workers (28/38) 
+✓ Generating static pages using 2 workers (38/38) in 758ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /catalogo
+│ ├ ● /buscar
+│ ├ ● /novedades
+│ └ ● [+13 more paths]
+├   /colecciones/[slug]
+│ ├ ● /colecciones/hombre
+│ ├ ● /colecciones/mujer
+│ ├ ● /colecciones/nino
+│ └ ● /colecciones/nina
+├   /producto/[slug]
+│ ├ ● /producto/conjunto-motion-line
+│ ├ ● /producto/conjunto-v-line-performance
+│ ├ ● /producto/chaqueta-puffer-contrast
+│ └ ● [+10 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Catálogo actualizable, imágenes optimizadas y cabeceras preparados en out/.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice
+
+> enara-collection@1.0.0 verify:export
+> tsx scripts/verify-export.ts
+
+34 rutas verificadas: HTML indexable, enlaces internos, imágenes, metadatos, catálogo, 404 y exclusión de ocultos.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.3
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.3
+npm notice To update run: npm install -g npm@12.2.3
+npm notice

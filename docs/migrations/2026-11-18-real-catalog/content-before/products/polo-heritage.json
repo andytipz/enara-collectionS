@@ -1,0 +1,61 @@
+{
+  "id": "enara-002",
+  "slug": "polo-heritage",
+  "name": "Polo Heritage",
+  "description": "Diseño versátil de líneas limpias, pensado para combinar con tus esenciales de todos los días. Producto de demostración con ilustraciones originales; no representa mercancía real.",
+  "price": 3890,
+  "salePrice": null,
+  "category": "hombre",
+  "subcategory": "polos",
+  "collections": [
+    "old-money"
+  ],
+  "tags": [
+    "casual",
+    "suave",
+    "Polo Heritage"
+  ],
+  "status": "disponible",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "colors": [
+    {
+      "name": "Beige",
+      "hex": "#d4c0a5",
+      "image": "/media/polo-beige.svg"
+    },
+    {
+      "name": "Negro",
+      "hex": "#242323",
+      "image": "/media/polo-black.svg"
+    }
+  ],
+  "disabledVariants": [
+    {
+      "size": "XXL",
+      "color": "Beige"
+    }
+  ],
+  "images": [
+    {
+      "src": "/media/polo-beige.svg",
+      "alt": "Ilustración de demostración: Polo Heritage en Beige"
+    },
+    {
+      "src": "/media/polo-black.svg",
+      "alt": "Ilustración de demostración: Polo Heritage en Negro"
+    }
+  ],
+  "isNew": true,
+  "featured": true,
+  "date": "2026-11-15",
+  "materials": "Ejemplo: composición por confirmar por el propietario.",
+  "care": "Ejemplo: seguir las instrucciones de la etiqueta de la prenda.",
+  "sizeGuide": "adulto",
+  "demo": true
+}

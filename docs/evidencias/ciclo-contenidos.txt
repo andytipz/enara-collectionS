@@ -1,0 +1,162 @@
+
+> enara-collection@1.0.0 test:lifecycle
+> tsx scripts/test-content-lifecycle.ts
+
+
+> enara-collection@1.0.0 build
+> tsx scripts/validate.ts && next build && tsx scripts/export-catalog.ts
+
+Contenido válido: 18 productos, 15 categorías, 6 páginas. Imágenes decodificadas y CMS parseado.
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 77ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1570ms
+  Running TypeScript ...
+  Finished TypeScript in 3.5s ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/40) ...
+  Generating static pages using 2 workers (10/40) 
+  Generating static pages using 2 workers (20/40) 
+  Generating static pages using 2 workers (30/40) 
+✓ Generating static pages using 2 workers (40/40) in 796ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /catalogo
+│ ├ ● /buscar
+│ ├ ● /novedades
+│ └ ● [+12 more paths]
+├   /colecciones/[slug]
+│ ├ ● /colecciones/deportivo
+│ ├ ● /colecciones/old-money
+│ └ ● /colecciones/basicos
+├   /producto/[slug]
+│ ├ ● /producto/calentador-everyday
+│ ├ ● /producto/calentador-soft
+│ ├ ● /producto/camiseta-mini
+│ └ ● [+14 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Catálogo actualizable, imágenes optimizadas y cabeceras preparados en out/.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+ALTA: ruta nueva generada desde JSON.
+
+> enara-collection@1.0.0 build
+> tsx scripts/validate.ts && next build && tsx scripts/export-catalog.ts
+
+Contenido válido: 18 productos, 15 categorías, 6 páginas. Imágenes decodificadas y CMS parseado.
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 28ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 347ms
+  Running TypeScript ...
+  Finished TypeScript in 1602ms ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/39) ...
+  Generating static pages using 2 workers (9/39) 
+  Generating static pages using 2 workers (19/39) 
+  Generating static pages using 2 workers (29/39) 
+✓ Generating static pages using 2 workers (39/39) in 739ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /catalogo
+│ ├ ● /buscar
+│ ├ ● /novedades
+│ └ ● [+12 more paths]
+├   /colecciones/[slug]
+│ ├ ● /colecciones/deportivo
+│ ├ ● /colecciones/old-money
+│ └ ● /colecciones/basicos
+├   /producto/[slug]
+│ ├ ● /producto/calentador-everyday
+│ ├ ● /producto/calentador-soft
+│ ├ ● /producto/camiseta-mini
+│ └ ● [+13 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Catálogo actualizable, imágenes optimizadas y cabeceras preparados en out/.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+OCULTAR: ruta y catálogo público retirados.
+
+> enara-collection@1.0.0 build
+> tsx scripts/validate.ts && next build && tsx scripts/export-catalog.ts
+
+Contenido válido: 17 productos, 15 categorías, 6 páginas. Imágenes decodificadas y CMS parseado.
+▲ Next.js 16.4.6 (Turbopack)
+✓ Running next.config.ts took 32ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 412ms
+  Running TypeScript ...
+  Finished TypeScript in 1735ms ...
+  Collecting page data using 2 workers ...
+  Generating static pages using 2 workers (0/39) ...
+  Generating static pages using 2 workers (9/39) 
+  Generating static pages using 2 workers (19/39) 
+  Generating static pages using 2 workers (29/39) 
+✓ Generating static pages using 2 workers (39/39) in 721ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[section]
+│ ├ ● /catalogo
+│ ├ ● /buscar
+│ ├ ● /novedades
+│ └ ● [+12 more paths]
+├   /colecciones/[slug]
+│ ├ ● /colecciones/deportivo
+│ ├ ● /colecciones/old-money
+│ └ ● /colecciones/basicos
+├   /producto/[slug]
+│ ├ ● /producto/calentador-everyday
+│ ├ ● /producto/calentador-soft
+│ ├ ● /producto/camiseta-mini
+│ └ ● [+13 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
+Catálogo actualizable, imágenes optimizadas y cabeceras preparados en out/.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice
+ELIMINAR: contenido y exportación restaurados sin ruta residual.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.2
+npm notice To update run: npm install -g npm@12.2.2
+npm notice

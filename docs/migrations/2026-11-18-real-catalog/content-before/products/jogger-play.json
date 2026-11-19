@@ -1,0 +1,64 @@
+{
+  "id": "enara-010",
+  "slug": "jogger-play",
+  "name": "Jogger Play",
+  "description": "Diseño versátil de líneas limpias, pensado para combinar con tus esenciales de todos los días. Producto de demostración con ilustraciones originales; no representa mercancía real.",
+  "price": 2290,
+  "salePrice": null,
+  "category": "ninos",
+  "subcategory": "ninos-infantil",
+  "collections": [
+    "deportivo"
+  ],
+  "tags": [
+    "casual",
+    "suave",
+    "Jogger Play"
+  ],
+  "status": "disponible",
+  "sizes": [
+    "2 años",
+    "4 años",
+    "6 años",
+    "8 años"
+  ],
+  "colors": [
+    {
+      "name": "Gris",
+      "hex": "#aaaaa6",
+      "image": "/media/pants-grey.svg"
+    },
+    {
+      "name": "Negro",
+      "hex": "#242323",
+      "image": "/media/pants-black.svg"
+    },
+    {
+      "name": "Beige",
+      "hex": "#d4c0a5",
+      "image": "/media/pants-beige.svg"
+    }
+  ],
+  "disabledVariants": [],
+  "images": [
+    {
+      "src": "/media/pants-grey.svg",
+      "alt": "Ilustración de demostración: Jogger Play en Gris"
+    },
+    {
+      "src": "/media/pants-black.svg",
+      "alt": "Ilustración de demostración: Jogger Play en Negro"
+    },
+    {
+      "src": "/media/pants-beige.svg",
+      "alt": "Ilustración de demostración: Jogger Play en Beige"
+    }
+  ],
+  "isNew": false,
+  "featured": true,
+  "date": "2026-11-07",
+  "materials": "Ejemplo: composición por confirmar por el propietario.",
+  "care": "Ejemplo: seguir las instrucciones de la etiqueta de la prenda.",
+  "sizeGuide": "infantil",
+  "demo": true
+}

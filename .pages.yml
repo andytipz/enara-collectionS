@@ -1,0 +1,26 @@
+
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: productos
+    label: Productos ENARA
+    type: collection
+    path: content/products
+    format: json
+
+  - name: categorias
+    label: Categorías
+    type: file
+    path: content/categories.json
+
+  - name: portada
+    label: Portada principal
+    type: file
+    path: content/home.json
+
+  - name: configuracion
+    label: Datos de la tienda
+    type: file
+    path: content/settings.json

@@ -1,5 +1,4 @@
 
-
 media:
   input: public/media
   output: /media
@@ -10,106 +9,220 @@ content:
     type: collection
     path: content/products
     format: json
-    filename: "{primary}.json"
+    filename: "{id}.json"
+
     view:
-      primary: nombre
+      primary: name
+      fields:
+        - name
+        - category
+        - subcategory
+        - price
+        - visible
+        - status
+      search:
+        - name
+        - id
+        - slug
+        - category
+        - subcategory
+
     fields:
-      - name: nombre
+      - name: id
+        label: Código único del producto
+        type: string
+        required: true
+        description: "Ejemplo: ENA-MUJ-010. No modificar códigos existentes."
+
+      - name: name
         label: Nombre del producto
         type: string
         required: true
 
       - name: slug
-        label: Identificador del producto
+        label: Identificador para la web
         type: string
         required: true
 
-      - name: descripcion
+      - name: description
         label: Descripción profesional
         type: text
 
-      - name: categoria
-        label: Categoría principal
+      - name: category
+        label: Colección principal
         type: select
         required: true
         options:
           values:
-            - Hombre
-            - Mujer
-            - Niño
-            - Niña
+            - name: hombre
+              label: Hombre
+            - name: mujer
+              label: Mujer
+            - name: nino
+              label: Niño
+            - name: nina
+              label: Niña
 
-      - name: tipo
+      - name: subcategory
         label: Tipo de prenda
         type: select
         required: true
         options:
           values:
-            - Chompas
-            - Jeans
-            - Pantalones
-            - Licras
-            - Conjuntos
-            - Camisetas
-            - Zapatos
-            - Otros
+            - name: conjuntos
+              label: Conjuntos
+            - name: chompas
+              label: Chompas y chaquetas
+            - name: jeans
+              label: Jeans
+            - name: pantalones
+              label: Pantalones
+            - name: licras
+              label: Licras
+            - name: camisetas
+              label: Camisetas
+            - name: zapatos
+              label: Zapatos
+            - name: otros
+              label: Otros
 
-      - name: precio
-        label: Precio en USD
+      - name: price
+        label: Precio en centavos USD
         type: number
         required: true
+        description: "4500 representa $45.00. No escribir 45 para un producto de $45."
 
-      - name: imagen
-        label: Fotografía principal
-        type: image
+      - name: salePrice
+        label: Precio promocional en centavos
+        type: number
 
-      - name: imagenes
-        label: Galería de fotografías
-        type: image
-        list: true
+      - name: status
+        label: Estado de disponibilidad
+        type: select
+        options:
+          values:
+            - name: disponible
+              label: Disponible
+            - name: agotado
+              label: Agotado
+            - name: por_confirmar
+              label: Por confirmar
 
-      - name: colores
-        label: Colores disponibles
+      - name: visible
+        label: Mostrar en catálogo
+        type: boolean
+        default: true
+
+      - name: colors
+        label: Colores y fotografías
         type: object
-        list: true
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
         fields:
-          - name: nombre
+          - name: id
+            label: Código de variante
+            type: string
+
+          - name: name
             label: Nombre del color
             type: string
             required: true
 
-          - name: codigo
-            label: Código de color HEX
+          - name: hex
+            label: Código HEX del color
             type: string
 
-          - name: imagen
-            label: Fotografía de este color
-            type: image
+          - name: status
+            label: Disponibilidad del color
+            type: select
+            options:
+              values:
+                - name: disponible
+                  label: Disponible
+                - name: agotado
+                  label: Agotado
+                - name: por_confirmar
+                  label: Por confirmar
 
-      - name: tallas
+          - name: visible
+            label: Mostrar este color
+            type: boolean
+            default: true
+
+          - name: sizes
+            label: Tallas disponibles en este color
+            type: string
+            list: true
+
+          - name: images
+            label: Fotografías de este color
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{alt}"
+            fields:
+              - name: src
+                label: Ruta de la fotografía
+                type: image
+
+              - name: alt
+                label: Descripción de la fotografía
+                type: string
+
+      - name: sizes
         label: Tallas disponibles
         type: string
         list: true
 
-      - name: disponible
-        label: Producto disponible
-        type: boolean
-        default: true
+      - name: tags
+        label: Etiquetas internas
+        type: string
+        list: true
 
-      - name: destacado
-        label: Mostrar en destacados
-        type: boolean
-        default: false
-
-      - name: nuevo
+      - name: isNew
         label: Mostrar como nuevo
         type: boolean
         default: false
 
-      - name: cuidados
-        label: Recomendaciones de lavado y cuidado
+      - name: featured
+        label: Mostrar como destacado
+        type: boolean
+        default: false
+
+      - name: date
+        label: Fecha de incorporación
+        type: date
+
+      - name: care
+        label: Cuidados y recomendaciones de lavado
         type: text
-        default: "Lavar con prendas de colores similares. Utilizar detergente suave. Evitar el uso de blanqueadores. Secar a la sombra y seguir las instrucciones de la etiqueta de la prenda."
+        default: "Revisar las instrucciones de la etiqueta. Lavar con colores similares, utilizar detergente suave y evitar blanqueadores. Seguir las indicaciones de secado y evitar planchar directamente sobre estampados."
+
+      - name: pieces
+        label: Número de piezas del conjunto
+        type: number
+
+      - name: disabledVariants
+        label: Variantes deshabilitadas
+        type: string
+        list: true
+
+      - name: priceReview
+        label: Precio pendiente de revisión
+        type: boolean
+        default: false
+
+      - name: adminNotes
+        label: Notas internas
+        type: text
+
+      - name: demo
+        label: Producto de demostración
+        type: boolean
+        default: false
 
   - name: categorias
     label: Categorías

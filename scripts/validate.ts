@@ -1,0 +1,20 @@
+import fs from 'node:fs';import path from 'node:path';import sharp from 'sharp';import YAML from 'yaml';
+import {products,allProducts,allCategories,allGarmentTypes,settings,home,pages} from '../lib/content';
+const assert=(ok:unknown,msg:string)=>{if(!ok)throw new Error(msg);};
+for(const [label,values] of [['IDs',allProducts.map(p=>p.id)],['slugs',allProducts.map(p=>p.slug)],['colecciones',allCategories.map(c=>c.id)],['tipos',allGarmentTypes.map(t=>t.id)],['páginas',pages.map(p=>p.slug)]] as const)assert(new Set(values).size===values.length,`Duplicados en ${label}`);
+assert(['hombre','mujer','nino','nina'].every(id=>allCategories.some(c=>c.id===id))&&allCategories.length===4,'Deben existir exactamente las cuatro colecciones');
+const reserved=['catalogo','buscar','novedades','favoritos','colecciones','infantil','producto','404'];
+for(const p of pages)assert(!reserved.includes(p.slug)&&!allCategories.some(c=>c.id===p.slug),'Ruta reservada: '+p.slug);
+const variantIds=allProducts.flatMap(p=>p.colors.map(c=>c.id));assert(new Set(variantIds).size===variantIds.length,'IDs de variante duplicados');
+for(const p of allProducts){assert(allGarmentTypes.some(c=>c.id===p.subcategory),'Tipo desconocido: '+p.name);assert(new Set(p.sizes).size===p.sizes.length&&new Set(p.colors.map(c=>c.name)).size===p.colors.length,'Variantes duplicadas: '+p.name);for(const c of p.colors)assert(new Set(c.sizes).size===c.sizes.length,'Tallas duplicadas: '+c.id);assert(!p.visible||p.colors.some(c=>c.visible),'Un producto visible debe tener un color visible');}
+if(settings.indexable){assert(settings.domain&&settings.whatsapp&&settings.logo&&!settings.logoPending,'Antes de indexar configura dominio, WhatsApp y logo oficial');assert(!allProducts.some(p=>p.visible&&p.demo),'Retira productos de demostración antes de indexar');}
+for(const v of [settings.instagram,settings.facebook,settings.tiktok])assert(!v||/^https:\/\//.test(v),'Las redes requieren URL HTTPS');
+const localImage=(src:string)=>{assert(src.startsWith('/media/')&&!src.includes('..'),'Ruta de imagen insegura');assert(fs.existsSync(path.join('public',src)),'Falta imagen: '+src);};
+for(const src of [...allProducts.flatMap(p=>p.colors.flatMap(c=>c.images.map(i=>i.src))),...allCategories.map(c=>c.image),...home.slides.map(s=>s.image),home.editorial.image,settings.logo,settings.favicon].filter(Boolean))localImage(src);
+const routes=new Set(['/',...reserved.filter(r=>!['producto','404'].includes(r)).map(r=>'/'+r+'/'),...pages.map(p=>'/'+p.slug+'/'),...allCategories.flatMap(c=>['/'+c.id+'/','/colecciones/'+c.id+'/']),...products.map(p=>'/producto/'+p.slug+'/')]);
+for(const s of [...home.slides,home.editorial])assert(routes.has(s.href.split('?')[0]),'Banner enlaza ruta inexistente: '+s.href);
+assert(new Set(home.sections).size===home.sections.length,'Secciones repetidas');
+async function scan(dir:string){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const full=path.join(dir,entry.name);assert(!entry.isSymbolicLink(),'No se permiten enlaces simbólicos');if(entry.isDirectory()){await scan(full);continue;}const data=fs.readFileSync(full);assert(data.length<=10*1024*1024,'Imagen mayor de 10 MB: '+full);assert(/\.(jpg|jpeg|png|webp|avif)$/.test(entry.name),'Formato no admitido: '+full);const m=await sharp(data,{limitInputPixels:40000000}).metadata();const ext=path.extname(entry.name).slice(1);assert(m.format===(ext==='jpg'?'jpeg':ext)||(ext==='avif'&&m.format==='heif'),'Extensión incorrecta: '+full);await sharp(data,{limitInputPixels:40000000}).resize({width:2200,height:2200,fit:'inside',withoutEnlargement:true}).toBuffer();}}
+await scan('public/media');const cms=YAML.parse(fs.readFileSync('.pages.yml','utf8'));assert(cms.content.length===6&&cms.media.input==='public/media','Configuración CMS inesperada');
+fs.writeFileSync('public/catalog.json',JSON.stringify({products,settings}));
+console.log(`Contenido válido: ${allProducts.length} diseños, ${variantIds.length} colores, ${allProducts.flatMap(p=>p.colors.flatMap(c=>c.images)).length} fotografías; cuatro colecciones.`);

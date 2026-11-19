@@ -1,0 +1,4 @@
+'use client';
+import {useRef,useEffect,type ReactNode} from 'react';
+import {X} from 'lucide-react';
+export function Modal({open,onClose,title,children,drawer=false}:{open:boolean;onClose:()=>void;title:string;children:ReactNode;drawer?:boolean}){const ref=useRef<HTMLDialogElement>(null);useEffect(()=>{const d=ref.current;if(open&&!d?.open)d?.showModal();if(!open&&d?.open)d.close();if(open){const prev=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{document.body.style.overflow=prev;};}},[open]);return <dialog ref={ref} className={drawer?'modal drawer':'modal'} onCancel={onClose} onClick={e=>{if(e.target===e.currentTarget)onClose();}} aria-label={title}><div className="modal-head"><h2>{title}</h2><button className="icon-button" onClick={onClose} aria-label="Cerrar"><X/></button></div>{children}</dialog>;}

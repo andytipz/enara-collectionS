@@ -1,4 +1,5 @@
 
+
 media:
   input: public/media
   output: /media
@@ -9,18 +10,121 @@ content:
     type: collection
     path: content/products
     format: json
+    filename: "{primary}.json"
+    view:
+      primary: nombre
+    fields:
+      - name: nombre
+        label: Nombre del producto
+        type: string
+        required: true
+
+      - name: slug
+        label: Identificador del producto
+        type: string
+        required: true
+
+      - name: descripcion
+        label: Descripción profesional
+        type: text
+
+      - name: categoria
+        label: Categoría principal
+        type: select
+        required: true
+        options:
+          values:
+            - Hombre
+            - Mujer
+            - Niño
+            - Niña
+
+      - name: tipo
+        label: Tipo de prenda
+        type: select
+        required: true
+        options:
+          values:
+            - Chompas
+            - Jeans
+            - Pantalones
+            - Licras
+            - Conjuntos
+            - Camisetas
+            - Zapatos
+            - Otros
+
+      - name: precio
+        label: Precio en USD
+        type: number
+        required: true
+
+      - name: imagen
+        label: Fotografía principal
+        type: image
+
+      - name: imagenes
+        label: Galería de fotografías
+        type: image
+        list: true
+
+      - name: colores
+        label: Colores disponibles
+        type: object
+        list: true
+        fields:
+          - name: nombre
+            label: Nombre del color
+            type: string
+            required: true
+
+          - name: codigo
+            label: Código de color HEX
+            type: string
+
+          - name: imagen
+            label: Fotografía de este color
+            type: image
+
+      - name: tallas
+        label: Tallas disponibles
+        type: string
+        list: true
+
+      - name: disponible
+        label: Producto disponible
+        type: boolean
+        default: true
+
+      - name: destacado
+        label: Mostrar en destacados
+        type: boolean
+        default: false
+
+      - name: nuevo
+        label: Mostrar como nuevo
+        type: boolean
+        default: false
+
+      - name: cuidados
+        label: Recomendaciones de lavado y cuidado
+        type: text
+        default: "Lavar con prendas de colores similares. Utilizar detergente suave. Evitar el uso de blanqueadores. Secar a la sombra y seguir las instrucciones de la etiqueta de la prenda."
 
   - name: categorias
     label: Categorías
     type: file
     path: content/categories.json
+    format: json
 
   - name: portada
     label: Portada principal
     type: file
     path: content/home.json
+    format: json
 
   - name: configuracion
     label: Datos de la tienda
     type: file
     path: content/settings.json
+    format: json

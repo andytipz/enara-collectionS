@@ -1,0 +1,8 @@
+import {products,settings} from '@/lib/content';
+import {ProductDetail} from '@/components/product-detail';
+import {notFound} from 'next/navigation';
+import {price} from '@/lib/commerce';
+export const dynamicParams=false;
+export function generateStaticParams(){return products.map(p=>({slug:p.slug}));}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=products.find(p=>p.slug===slug);if(!p)return {};return {title:p.name,description:p.description.slice(0,155),alternates:settings.domain?{canonical:settings.domain+'/producto/'+slug+'/'}:undefined,openGraph:{title:p.name,description:p.description,images:settings.domain?p.images.map(i=>({url:settings.domain+i.src,alt:i.alt})):undefined,type:'website'}};}
+export default async function Page({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const p=products.find(p=>p.slug===slug);if(!p)notFound();const jsonld={'@context':'https://schema.org','@type':'Product',name:p.name,description:p.description,image:p.images.map(i=>settings.domain+i.src),sku:p.id,offers:{'@type':'Offer',priceCurrency:'USD',price:price(p)===null?undefined:(price(p)!/100).toFixed(2),availability:p.status==='disponible'?'https://schema.org/InStock':'https://schema.org/OutOfStock',url:settings.domain+'/producto/'+p.slug+'/'}};return <>{!p.demo&&!settings.demo&&settings.domain&&p.status!=='por_confirmar'&&price(p)!==null&&!p.priceReview&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(jsonld).replace(/</g,'\\u003c')}}/>}<ProductDetail product={p} /></>;}

@@ -1,0 +1,47 @@
+{
+  "id": "ENA-HOM-004",
+  "slug": "chaqueta-varsity-23",
+  "name": "Chaqueta Varsity 23",
+  "description": "Chaqueta acolchada con capucha y cierre frontal, en combinación de rojo y blanco. Destaca por el gran emblema tipo universitario en el pecho y el número 23 en la manga, que le aportan un carácter expresivo.",
+  "price": 3800,
+  "salePrice": null,
+  "category": "hombre",
+  "subcategory": "chaquetas",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-HOM-004-C01",
+      "name": "Rojo y blanco",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_01_principal.jpg",
+          "alt": "Chaqueta Varsity 23 — Rojo y blanco · vista de la prenda"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_02_foto_con_modelo.jpg",
+          "alt": "Chaqueta Varsity 23 — Rojo y blanco · vista con modelo"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_03_foto_con_modelo.png",
+          "alt": "Chaqueta Varsity 23 — Rojo y blanco · vista con modelo"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": true,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Es un diseño diferente de la chaqueta negra/blanca de la misma sección. Chompas hombres",
+  "demo": false
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ENA-MUJ-002",
+  "slug": "conjunto-active-flare-k",
+  "name": "Conjunto Active Flare K",
+  "description": "Conjunto de dos piezas con top deportivo de tirantes y pantalón de cintura alta con bota acampanada. Su combinación de líneas limpias y corte estilizado crea una propuesta moderna para looks relajados y dinámicos.",
+  "price": 4500,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "conjuntos",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-002-C01",
+      "name": "Negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-002/ENA-MUJ-002-C01_01_principal.jpg",
+          "alt": "Conjunto Active Flare K — Negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-002-C02",
+      "name": "Azul eléctrico con top negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-002/ENA-MUJ-002-C02_01_principal.jpg",
+          "alt": "Conjunto Active Flare K — Azul eléctrico con top negro · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": 2,
+  "priceReview": true,
+  "adminNotes": "En la variante azul, el top de la foto es negro. Conjuntos mujer (top + pantalón; precio aplicado como conjunto; confirmar si es excepcional)",
+  "demo": false
+}

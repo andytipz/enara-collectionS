@@ -1,0 +1,137 @@
+{
+  "id": "ENA-MUJ-007",
+  "slug": "chaqueta-acolchada-chevron",
+  "name": "Chaqueta Acolchada Chevron",
+  "description": "Chaqueta acolchada de largo corto, con costuras diagonales en forma de V, capucha con borde de apariencia afelpada y cierre frontal. Sus bolsillos con cierre y detalles en la parte inferior complementan un diseño de presencia marcada.",
+  "price": 3800,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "chaquetas",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-007-C01",
+      "name": "Azul marino",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C01_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Azul marino · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C02",
+      "name": "Vino tinto",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C02_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Vino tinto · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C03",
+      "name": "Taupe",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C03_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Taupe · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C04",
+      "name": "Café",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C04_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Café · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C05",
+      "name": "Negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C05_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C06",
+      "name": "Lila",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C06_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Lila · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C07",
+      "name": "Marfil",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C07_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Marfil · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-007-C08",
+      "name": "Verde menta",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-007/ENA-MUJ-007-C08_01_principal.jpg",
+          "alt": "Chaqueta Acolchada Chevron — Verde menta · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Taupe y café corresponden a imágenes de distinto tono; confirmar nombres comerciales. Chompas mujer",
+  "demo": false
+}

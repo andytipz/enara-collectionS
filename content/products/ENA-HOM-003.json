@@ -1,0 +1,47 @@
+{
+  "id": "ENA-HOM-003",
+  "slug": "chaqueta-puffer-contrast",
+  "name": "Chaqueta Puffer Contrast",
+  "description": "Chaqueta acolchada de corte corto con capucha, cuerpo negro y mangas blancas. El contraste de color, los detalles gráficos y los bolsillos con cierre crean un diseño llamativo para un estilo urbano.",
+  "price": 3800,
+  "salePrice": null,
+  "category": "hombre",
+  "subcategory": "chaquetas",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-HOM-003-C01",
+      "name": "Negro y blanco",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-003/ENA-HOM-003-C01_01_principal.jpg",
+          "alt": "Chaqueta Puffer Contrast — Negro y blanco · vista de la prenda"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-003/ENA-HOM-003-C01_02_foto_con_modelo.jpg",
+          "alt": "Chaqueta Puffer Contrast — Negro y blanco · vista con modelo"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-003/ENA-HOM-003-C01_03_foto_con_modelo.png",
+          "alt": "Chaqueta Puffer Contrast — Negro y blanco · vista con modelo"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Fotografías de modelo y de prenda pertenecen al mismo producto. Chompas hombres",
+  "demo": false
+}

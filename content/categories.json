@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hombre",
+    "name": "Hombre",
+    "description": "Presencia en cada detalle.",
+    "image": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_02_foto_con_modelo.jpg",
+    "order": 0,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  },
+  {
+    "id": "mujer",
+    "name": "Mujer",
+    "description": "Tu estilo, sin límites.",
+    "image": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_02_foto_con_modelo.jpg",
+    "order": 1,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  },
+  {
+    "id": "nino",
+    "name": "Niño",
+    "description": "Grandes aventuras, gran estilo.",
+    "image": "/media/editorial/hero-nino.jpg",
+    "order": 2,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  },
+  {
+    "id": "nina",
+    "name": "Niña",
+    "description": "Pequeños detalles, grandes momentos.",
+    "image": "/media/editorial/hero-nina.jpg",
+    "order": 3,
+    "hidden": false,
+    "parent": "",
+    "kind": "collection"
+  }
+]

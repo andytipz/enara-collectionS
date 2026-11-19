@@ -1,0 +1,81 @@
+{
+  "id": "ENA-MUJ-008",
+  "slug": "abrigo-largo-belted-winter",
+  "name": "Abrigo Largo Belted Winter",
+  "description": "Abrigo acolchado de largo extendido con capucha de borde de apariencia afelpada, cinturón para ajustar visualmente la cintura y detalles metálicos al frente. Una pieza protagonista para looks de temporada con una silueta elegante.",
+  "price": 3800,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "abrigos",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-008-C01",
+      "name": "Café",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C01_01_principal.jpg",
+          "alt": "Abrigo Largo Belted Winter — Café · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-008-C02",
+      "name": "Negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C02_01_principal.jpg",
+          "alt": "Abrigo Largo Belted Winter — Negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-008-C03",
+      "name": "Vino tinto",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C03_01_principal.jpg",
+          "alt": "Abrigo Largo Belted Winter — Vino tinto · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-008-C04",
+      "name": "Beige",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-008/ENA-MUJ-008-C04_01_principal.jpg",
+          "alt": "Abrigo Largo Belted Winter — Beige · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": true,
+  "adminNotes": "Diseño largo con cinturón, separado de la chaqueta corta con costura en V. Abrigo largo mujer (precio aplicado como chompa mujer; confirmar si difiere)",
+  "demo": false
+}

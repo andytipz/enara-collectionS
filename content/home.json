@@ -1,0 +1,50 @@
+{
+  "slides": [
+    {
+      "eyebrow": "COLECCIÓN MUJER",
+      "title": "TU ESTILO,\nSIN LÍMITES.",
+      "description": "Descubre prendas que combinan actitud, estilo y versatilidad para cada momento.",
+      "image": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_02_foto_con_modelo.jpg",
+      "alt": "Conjunto Urban Contrast vino tinto y negro, fotografía original con modelo",
+      "button": "Explorar colección Mujer",
+      "href": "/colecciones/mujer/",
+      "provisional": false
+    },
+    {
+      "eyebrow": "COLECCIÓN HOMBRE",
+      "title": "PRESENCIA EN\nCADA DETALLE.",
+      "description": "Conjuntos y prendas que destacan por su diseño y personalidad.",
+      "image": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_02_foto_con_modelo.jpg",
+      "alt": "Conjunto Motion Line negro con blanco, fotografía original con modelo",
+      "button": "Explorar colección Hombre",
+      "href": "/colecciones/hombre/",
+      "provisional": false
+    },
+    {
+      "eyebrow": "NIÑOS Y NIÑAS · PRÓXIMAMENTE",
+      "title": "SU MUNDO,\nSU ESTILO.",
+      "description": "Una colección pensada para acompañar cada nueva aventura.",
+      "image": "/media/editorial/hero-nino.jpg",
+      "alt": "Fotografía editorial infantil provisional; no representa un producto disponible",
+      "button": "Explorar colección infantil",
+      "href": "/infantil/",
+      "provisional": true
+    }
+  ],
+  "editorial": {
+    "eyebrow": "ENARA · SPORT | FORMAL | YOU",
+    "title": "TU ESTILO.\nEN CADA MOMENTO.",
+    "description": "En ENARA creemos que cada prenda es una forma de expresarte. Descubre conjuntos, jeans, chaquetas y estilos para acompañarte todos los días",
+    "image": "/media/catalogo/ENA-HOM-004/ENA-HOM-004-C01_03_foto_con_modelo.png",
+    "alt": "Chaqueta Varsity 23, fotografía original del catálogo con modelo",
+    "button": "Descubrir la colección",
+    "href": "/colecciones/",
+    "provisional": false
+  },
+  "sections": [
+    "categories",
+    "featured",
+    "editorial",
+    "new"
+  ]
+}

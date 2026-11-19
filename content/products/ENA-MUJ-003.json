@@ -1,0 +1,93 @@
+{
+  "id": "ENA-MUJ-003",
+  "slug": "conjunto-urban-contrast",
+  "name": "Conjunto Urban Contrast",
+  "description": "Conjunto de chaqueta de manga larga con cierre frontal y pantalón ajustado, ambos con detalles gráficos y contrastes de color. Una propuesta coordinada y actual que destaca por sus franjas laterales y su acabado deportivo.",
+  "price": 4500,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "conjuntos",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-003-C01",
+      "name": "Vino tinto y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_01_principal.jpg",
+          "alt": "Conjunto Urban Contrast — Vino tinto y negro · vista de la prenda"
+        },
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_02_foto_con_modelo.jpg",
+          "alt": "Conjunto Urban Contrast — Vino tinto y negro · vista con modelo"
+        },
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_03_foto_con_modelo.jpg",
+          "alt": "Conjunto Urban Contrast — Vino tinto y negro · vista con modelo"
+        },
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C01_04_foto_con_modelo.jpg",
+          "alt": "Conjunto Urban Contrast — Vino tinto y negro · vista con modelo"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-003-C02",
+      "name": "Fucsia y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C02_01_principal.jpg",
+          "alt": "Conjunto Urban Contrast — Fucsia y negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-003-C03",
+      "name": "Celeste y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C03_01_principal.jpg",
+          "alt": "Conjunto Urban Contrast — Celeste y negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-003-C04",
+      "name": "Verde pastel y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-003/ENA-MUJ-003-C04_01_principal.jpg",
+          "alt": "Conjunto Urban Contrast — Verde pastel y negro · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": true,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": 2,
+  "priceReview": false,
+  "adminNotes": "Fotografías de modelo y de producto representan un solo diseño, no artículos separados. Conjuntos calentadores mujer",
+  "demo": false
+}

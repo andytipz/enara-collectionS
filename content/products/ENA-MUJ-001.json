@@ -1,0 +1,151 @@
+{
+  "id": "ENA-MUJ-001",
+  "slug": "legging-sculpt-de-tiro-alto",
+  "name": "Legging Sculpt de Tiro Alto",
+  "description": "Legging de silueta ajustada con cintura alta y costuras que definen visualmente su diseño. Incorpora un práctico bolsillo lateral y un pequeño detalle gráfico en la pretina. Una opción versátil para crear conjuntos cómodos de estilo casual o activo.",
+  "price": 2000,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "licras-y-leggings",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-001-C01",
+      "name": "Verde oliva",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C01_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Verde oliva · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C02",
+      "name": "Gris jaspeado",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C02_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Gris jaspeado · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C03",
+      "name": "Negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C03_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C04",
+      "name": "Café",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C04_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Café · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C05",
+      "name": "Gris grafito",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C05_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Gris grafito · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C06",
+      "name": "Gris claro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C06_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Gris claro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C07",
+      "name": "Verde menta",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C07_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Verde menta · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C08",
+      "name": "Azul marino",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C08_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Azul marino · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-001-C09",
+      "name": "Rojo",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-001/ENA-MUJ-001-C09_01_principal.jpg",
+          "alt": "Legging Sculpt de Tiro Alto — Rojo · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Se distinguen corte y costuras constantes en los colores. Licras mujer",
+  "demo": false
+}

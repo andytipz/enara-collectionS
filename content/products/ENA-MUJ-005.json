@@ -1,0 +1,81 @@
+{
+  "id": "ENA-MUJ-005",
+  "slug": "jean-flare-con-cinturon-tejido",
+  "name": "Jean Flare con Cinturón Tejido",
+  "description": "Jean de pierna acampanada con bolsillos delanteros y cinturón de apariencia tejida con hebilla circular. Una combinación de detalles que aporta carácter al look y resalta la cintura.",
+  "price": 2800,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "jeans",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-005-C01",
+      "name": "Azul índigo medio",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C01_01_principal.jpg",
+          "alt": "Jean Flare con Cinturón Tejido — Azul índigo medio · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-005-C02",
+      "name": "Azul lavado claro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C02_01_principal.jpg",
+          "alt": "Jean Flare con Cinturón Tejido — Azul lavado claro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-005-C03",
+      "name": "Negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C03_01_principal.jpg",
+          "alt": "Jean Flare con Cinturón Tejido — Negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-005-C04",
+      "name": "Azul índigo profundo",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-005/ENA-MUJ-005-C04_01_principal.jpg",
+          "alt": "Jean Flare con Cinturón Tejido — Azul índigo profundo · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": true,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Confirmar si los dos índigos corresponden a tonos comerciales distintos. Jeans mujer",
+  "demo": false
+}

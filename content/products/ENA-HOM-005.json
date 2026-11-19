@@ -1,0 +1,43 @@
+{
+  "id": "ENA-HOM-005",
+  "slug": "chaqueta-puffer-polar-white",
+  "name": "Chaqueta Puffer Polar White",
+  "description": "Chaqueta acolchada blanca de manga larga con capucha y cierre frontal. Los bolsillos con cremallera contrastante y los detalles oscuros en puños y cintura aportan definición a un diseño limpio y versátil.",
+  "price": 3800,
+  "salePrice": null,
+  "category": "hombre",
+  "subcategory": "chaquetas",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-HOM-005-C01",
+      "name": "Blanco",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-005/ENA-HOM-005-C01_01_principal.jpg",
+          "alt": "Chaqueta Puffer Polar White — Blanco · vista de la prenda"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-005/ENA-HOM-005-C01_02_foto_con_modelo.jpg",
+          "alt": "Chaqueta Puffer Polar White — Blanco · vista con modelo"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Imagen plana y foto puesta en modelo pertenecen a la misma prenda. Chompas hombres",
+  "demo": false
+}

@@ -1,0 +1,117 @@
+{
+  "id": "ENA-HOM-001",
+  "slug": "conjunto-motion-line",
+  "name": "Conjunto Motion Line",
+  "description": "Conjunto de chaqueta con cierre frontal y pantalón coordinado. Las líneas curvas sobre el frente, los contrastes en las mangas y los detalles gráficos aportan una identidad visual dinámica. Disponible en varias combinaciones de color.",
+  "price": 4500,
+  "salePrice": null,
+  "category": "hombre",
+  "subcategory": "conjuntos",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-HOM-001-C01",
+      "name": "Negro con blanco",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_01_principal.jpg",
+          "alt": "Conjunto Motion Line — Negro con blanco · vista de la prenda"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_02_foto_con_modelo.jpg",
+          "alt": "Conjunto Motion Line — Negro con blanco · vista con modelo"
+        },
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C01_03_foto_con_modelo.jpg",
+          "alt": "Conjunto Motion Line — Negro con blanco · vista con modelo"
+        }
+      ]
+    },
+    {
+      "id": "ENA-HOM-001-C02",
+      "name": "Verde oliva y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C02_01_principal.jpg",
+          "alt": "Conjunto Motion Line — Verde oliva y negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-HOM-001-C03",
+      "name": "Azul claro y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C03_01_principal.jpg",
+          "alt": "Conjunto Motion Line — Azul claro y negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-HOM-001-C04",
+      "name": "Blanco con negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C04_01_principal.jpg",
+          "alt": "Conjunto Motion Line — Blanco con negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-HOM-001-C05",
+      "name": "Marfil y azul oscuro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C05_01_principal.jpg",
+          "alt": "Conjunto Motion Line — Marfil y azul oscuro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-HOM-001-C06",
+      "name": "Azul eléctrico y negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-HOM-001/ENA-HOM-001-C06_01_principal.jpg",
+          "alt": "Conjunto Motion Line — Azul eléctrico y negro · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": true,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": 2,
+  "priceReview": false,
+  "adminNotes": "No unir con el conjunto de franjas en V y bolsillo de manga. Conjuntos calentadores hombre",
+  "demo": false
+}

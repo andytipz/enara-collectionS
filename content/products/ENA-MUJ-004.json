@@ -1,0 +1,53 @@
+{
+  "id": "ENA-MUJ-004",
+  "slug": "jean-flare-de-cuatro-botones",
+  "name": "Jean Flare de Cuatro Botones",
+  "description": "Jean de tiro alto con cierre frontal de cuatro botones visibles, bolsillos delanteros y pierna acampanada. Su diseño aporta un detalle distintivo en la cintura y una silueta de inspiración contemporánea.",
+  "price": 2800,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "jeans",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-004-C01",
+      "name": "Azul claro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-004/ENA-MUJ-004-C01_01_principal.jpg",
+          "alt": "Jean Flare de Cuatro Botones — Azul claro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-004-C02",
+      "name": "Azul índigo oscuro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-004/ENA-MUJ-004-C02_01_principal.jpg",
+          "alt": "Jean Flare de Cuatro Botones — Azul índigo oscuro · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": false,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "Diseño diferente del jean con cinturón tejido. Jeans mujer",
+  "demo": false
+}

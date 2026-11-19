@@ -1,0 +1,95 @@
+{
+  "id": "ENA-MUJ-006",
+  "slug": "chaqueta-corta-heritage",
+  "name": "Chaqueta Corta Heritage",
+  "description": "Chaqueta corta de cuello amplio con acabado de apariencia afelpada, cierre frontal y detalle de hebilla metálica. Los bolsillos verticales y la cintura acanalada completan una silueta definida, ideal para elevar conjuntos cotidianos.",
+  "price": 3800,
+  "salePrice": null,
+  "category": "mujer",
+  "subcategory": "chaquetas",
+  "tags": [],
+  "status": "por_confirmar",
+  "visible": true,
+  "sizes": [],
+  "colors": [
+    {
+      "id": "ENA-MUJ-006-C01",
+      "name": "Blanco crema",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C01_01_principal.jpg",
+          "alt": "Chaqueta Corta Heritage — Blanco crema · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-006-C02",
+      "name": "Café chocolate",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C02_01_principal.jpg",
+          "alt": "Chaqueta Corta Heritage — Café chocolate · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-006-C03",
+      "name": "Negro",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C03_01_principal.jpg",
+          "alt": "Chaqueta Corta Heritage — Negro · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-006-C04",
+      "name": "Camel",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C04_01_principal.jpg",
+          "alt": "Chaqueta Corta Heritage — Camel · vista de la prenda"
+        }
+      ]
+    },
+    {
+      "id": "ENA-MUJ-006-C05",
+      "name": "Vino tinto",
+      "hex": "",
+      "sizes": [],
+      "status": "por_confirmar",
+      "visible": true,
+      "images": [
+        {
+          "src": "/media/catalogo/ENA-MUJ-006/ENA-MUJ-006-C05_01_principal.jpg",
+          "alt": "Chaqueta Corta Heritage — Vino tinto · vista de la prenda"
+        }
+      ]
+    }
+  ],
+  "disabledVariants": [],
+  "isNew": false,
+  "featured": true,
+  "date": "2026-11-18",
+  "care": "Para conservar la apariencia de tus prendas, recomendamos revisar las instrucciones de su etiqueta antes del primer lavado. Lava con colores similares y utiliza detergentes suaves. Evita blanqueadores y temperaturas elevadas, salvo que la etiqueta indique lo contrario. Sigue las indicaciones de secado y evita planchar directamente sobre estampados o aplicaciones.",
+  "pieces": null,
+  "priceReview": false,
+  "adminNotes": "No mezclar con las chaquetas acolchadas con capucha. Chompas mujer",
+  "demo": false
+}
